@@ -1,18 +1,15 @@
 Name:		acetoneiso
-Version:	2.2.1
+Version:	2.2.2
 Release:	%mkrel 1
 Summary:	CD/DVD Image Manipulator
 Group:		Archiving/Other
 License:	GPLv3
 URL:		http://www.acetoneteam.org/
-Source0:	http://download.sourceforge.net/sourceforge/acetoneiso2/%{name}_%{version}.tar.bz2
-Patch0:		acetoneiso-2.1.1-desktop.patch
+Source0:	http://download.sourceforge.net/acetoneiso/%{name}_%{version}.tar.gz
 Patch1:		fix_phonon_includes.patch
-#Patch1:		AcetoneISO2-2.0.3-no-poweriso-for-non-x86.patch
 BuildRoot:  	%{_tmppath}/%{name}-%{version}-%{release}
-BuildRequires: 	kdewebdev4-devel, qt4-devel, desktop-file-utils
+BuildRequires: 	qt4-devel, desktop-file-utils
 Requires:	p7zip, cdrdao, fuseiso, fuse, cdrkit-genisoimage, gnupg, pinentry-qt4
-#Provides:	acetoneiso
 
 %description
 AcetoneISO2: The CD/DVD image manipulator for Linux, it can do the following:
@@ -30,13 +27,12 @@ AcetoneISO2: The CD/DVD image manipulator for Linux, it can do the following:
 
 %prep
 %setup -q -n %{name}_%{version}
-%patch0 -p1
-%patch1 -p1
+%patch1 -p0
 
 %build
 cd %{name}/
-qmake
-make LFLAGS="$RPM_OPT_FLAGS"
+%qmake_qt4
+%make
 
 %install
 rm -rf $RPM_BUILD_ROOT 
