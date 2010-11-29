@@ -1,5 +1,5 @@
 Name:		acetoneiso
-Version:	2.2.2
+Version:	2.3
 Release:	%mkrel 1
 Summary:	CD/DVD Image Manipulator
 Group:		Archiving/Other
