@@ -8,8 +8,16 @@ URL:		http://www.acetoneteam.org/
 Source0:	http://download.sourceforge.net/acetoneiso/%{name}_%{version}.tar.gz
 Patch1:		fix_phonon_includes.patch
 Patch2:		acetoneiso-2.3-ru.patch
-BuildRequires:	qt4-devel, desktop-file-utils
-Requires:	p7zip, cdrdao, fuseiso, fuse, cdrkit-genisoimage, gnupg, pinentry-qt4
+BuildRequires:	qt4-devel
+BuildRequires:	phonon-devel
+BuildRequires:	desktop-file-utils
+Requires:	p7zip
+Requires:	cdrdao
+Requires:	fuseiso
+Requires:	fuse
+Requires:	cdrkit-genisoimage
+Requires:	gnupg
+Requires:	pinentry-qt4
 
 %description
 AcetoneISO2: The CD/DVD image manipulator for Linux, it can do the following:
