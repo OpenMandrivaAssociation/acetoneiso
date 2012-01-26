@@ -1,14 +1,14 @@
 Name:		acetoneiso
 Version:	2.3
-Release:	%mkrel 1
+Release:	%mkrel 2
 Summary:	CD/DVD Image Manipulator
 Group:		Archiving/Other
 License:	GPLv3
 URL:		http://www.acetoneteam.org/
 Source0:	http://download.sourceforge.net/acetoneiso/%{name}_%{version}.tar.gz
 Patch1:		fix_phonon_includes.patch
-BuildRoot:  	%{_tmppath}/%{name}-%{version}-%{release}
-BuildRequires: 	qt4-devel, desktop-file-utils
+Patch2:		acetoneiso-2.3-ru.patch
+BuildRequires:	qt4-devel, desktop-file-utils
 Requires:	p7zip, cdrdao, fuseiso, fuse, cdrkit-genisoimage, gnupg, pinentry-qt4
 
 %description
@@ -28,21 +28,24 @@ AcetoneISO2: The CD/DVD image manipulator for Linux, it can do the following:
 %prep
 %setup -q -n %{name}_%{version}
 %patch1 -p0
+%patch2 -p1
 
 %build
 cd %{name}/
+# Update translations first after we used patch for .ts
+lrelease ./locale/*.ts
 %qmake_qt4
 %make
 
 %install
-rm -rf $RPM_BUILD_ROOT 
+%__rm -rf %{buildroot}
 cd %{name}/
-make INSTALL_ROOT=$RPM_BUILD_ROOT install
-desktop-file-install --dir $RPM_BUILD_ROOT%{_datadir}/applications	\
-	$RPM_BUILD_ROOT%{_datadir}/applications/AcetoneISO.desktop
+make INSTALL_ROOT=%{buildroot} install
+desktop-file-install --dir %{buildroot}%{_datadir}/applications \
+	%{buildroot}%{_datadir}/applications/AcetoneISO.desktop
 
 %clean
-rm -rf $RPM_BUILD_ROOT 
+%__rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
