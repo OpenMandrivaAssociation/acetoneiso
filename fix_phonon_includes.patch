@@ -1,0 +1,10 @@
+--- acetoneiso/acetoneiso.pro.inc	2010-10-04 18:16:00.000000000 +0200
++++ acetoneiso/acetoneiso.pro	2010-10-04 18:16:18.000000000 +0200
+@@ -3,6 +3,7 @@
+ TARGET = 
+ DEPENDPATH += .
+ INCLUDEPATH += .
++INCLUDEPATH += /usr/include/KDE
+ 
+ # Input
+ HEADERS += sources/acetoneiso.h \

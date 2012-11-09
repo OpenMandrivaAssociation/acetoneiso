@@ -1,0 +1,2717 @@
+diff -urN acetoneiso_2.3/acetoneiso/locale/acetoneiso_ru.ts acetoneiso_2.3-patched/acetoneiso/locale/acetoneiso_ru.ts
+--- acetoneiso_2.3/acetoneiso/locale/acetoneiso_ru.ts	2010-11-15 11:34:50.000000000 +1000
++++ acetoneiso_2.3-patched/acetoneiso/locale/acetoneiso_ru.ts	2012-01-24 06:04:53.000000000 +1100
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+ <!DOCTYPE TS>
+-<TS version="2.0">
++<TS version="2.0" language="ru_RU" sourcelanguage="ru_RU">
+ <context>
+     <name>about</name>
+     <message>
+@@ -375,15 +375,15 @@
+     </message>
+     <message>
+         <source>About AcetoneISO</source>
+-        <translation type="unfinished"></translation>
++        <translation>О программе AcetoneISO2</translation>
+     </message>
+     <message>
+         <source>OK</source>
+-        <translation type="unfinished"></translation>
++        <translation>ОК</translation>
+     </message>
+     <message>
+         <source>Honor &amp;&amp; Glory</source>
+-        <translation type="unfinished"></translation>
++        <translation>Честь и слава</translation>
+     </message>
+     <message>
+         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+@@ -394,7 +394,14 @@
+ &lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a href=&quot;mailto:acetoneiso@gmail.com&quot;&gt;&lt;span style=&quot; font-size:9pt; text-decoration: underline; color:#0000ff;&quot;&gt;acetoneiso@gmail.com&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+ &lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Official Website:&lt;/span&gt;&lt;/p&gt;
+ &lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a href=&quot;http://www.acetoneteam.org/&quot;&gt;&lt;span style=&quot; font-size:9pt; text-decoration: underline; color:#0057ae;&quot;&gt;http://www.acetoneteam.org&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+-        <translation type="unfinished"></translation>
++        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
++&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
++p, li { white-space: pre-wrap; }
++&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
++&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Для связи используйте почтовый адрес:&lt;/span&gt;&lt;/p&gt;
++&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a href=&quot;mailto:acetoneiso@gmail.com&quot;&gt;&lt;span style=&quot; font-size:9pt; text-decoration: underline; color:#0000ff;&quot;&gt;acetoneiso@gmail.com&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
++&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:9pt;&quot;&gt;Официальный сайт:&lt;/span&gt;&lt;/p&gt;
++&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a href=&quot;http://www.acetoneteam.org/&quot;&gt;&lt;span style=&quot; font-size:9pt; text-decoration: underline; color:#0057ae;&quot;&gt;http://www.acetoneteam.org&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+     </message>
+     <message utf8="true">
+         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+@@ -539,7 +546,148 @@
+ &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;The hypothetical commands `show w&apos; and `show c&apos; should show the appropriate parts of the General Public License. Of course, your program&apos;s commands might be different; for a GUI interface, you would use an “about box”. &lt;/span&gt;&lt;/p&gt;
+ &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;You should also get your employer (if you work as a programmer) or school, if any, to sign a “copyright disclaimer” for the program, if necessary. For more information on this, and how to apply and follow the GNU GPL, see &amp;lt;http://www.gnu.org/licenses/&amp;gt;. &lt;/span&gt;&lt;/p&gt;
+ &lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;The GNU General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License. But first, please read &amp;lt;http://www.gnu.org/philosophy/why-not-lgpl.htm&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+-        <translation type="unfinished"></translation>
++        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
++&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
++p, li { white-space: pre-wrap; }
++&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
++&lt;p style=&quot; margin-top:14px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;GNU GENERAL PUBLIC LICENSE&lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Version 3, 29 June 2007 &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Copyright © 2007 Free Software Foundation, Inc. &amp;lt;http://fsf.org/&amp;gt;&lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Каждый вправе копировать и распространять дословные копии этого лицензионного документа, но изменять его не разрешается. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;preamble&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;P&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;reamble &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;The GNU General Public License is a free, copyleft license for software and other kinds of works. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;The licenses for most software and other practical works are designed to take away your freedom to share and change the works. By contrast, the GNU General Public License is intended to guarantee your freedom to share and change all versions of a program--to make sure it remains free software for all its users. We, the Free Software Foundation, use the GNU General Public License for most of our software; it applies also to any other work released this way by its authors. You can apply it to your programs, too. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;When we speak of free software, we are referring to freedom, not price. Our General Public Licenses are designed to make sure that you have the freedom to distribute copies of free software (and charge for them if you wish), that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs, and that you know you can do these things. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;To protect your rights, we need to prevent others from denying you these rights or asking you to surrender the rights. Therefore, you have certain responsibilities if you distribute copies of the software, or if you modify it: responsibilities to respect the freedom of others. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;For example, if you distribute copies of such a program, whether gratis or for a fee, you must pass on to the recipients the same freedoms that you received. You must make sure that they, too, receive or can get the source code. And you must show them these terms so they know their rights. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Developers that use the GNU GPL protect your rights with two steps: (1) assert copyright on the software, and (2) offer you this License giving you legal permission to copy, distribute and/or modify it. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;For the developers&apos; and authors&apos; protection, the GPL clearly explains that there is no warranty for this free software. For both users&apos; and authors&apos; sake, the GPL requires that modified versions be marked as changed, so that their problems will not be attributed erroneously to authors of previous versions. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Some devices are designed to deny users access to install or run modified versions of the software inside them, although the manufacturer can do so. This is fundamentally incompatible with the aim of protecting users&apos; freedom to change the software. The systematic pattern of such abuse occurs in the area of products for individuals to use, which is precisely where it is most unacceptable. Therefore, we have designed this version of the GPL to prohibit the practice for those products. If such problems arise substantially in other domains, we stand ready to extend this provision to those domains in future versions of the GPL, as needed to protect the freedom of users. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Finally, every program is threatened constantly by software patents. States should not allow patents to restrict development and use of software on general-purpose computers, but in those that do, we wish to avoid the special danger that patents applied to a free program could make it effectively proprietary. To prevent this, the GPL assures that patents cannot be used to render the program non-free. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;The precise terms and conditions for copying, distribution and modification follow. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;terms&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;T&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;ERMS AND CONDITIONS &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;section0&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;0&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;. Definitions. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;“This License” refers to version 3 of the GNU General Public License. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;“Copyright” also means copyright-like laws that apply to other kinds of works, such as semiconductor masks. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;“The Program” refers to any copyrightable work licensed under this License. Each licensee is addressed as “you”. “Licensees” and “recipients” may be individuals or organizations. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;To “modify” a work means to copy from or adapt all or part of the work in a fashion requiring copyright permission, other than the making of an exact copy. The resulting work is called a “modified version” of the earlier work or a work “based on” the earlier work. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;A “covered work” means either the unmodified Program or a work based on the Program. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;To “propagate” a work means to do anything with it that, without permission, would make you directly or secondarily liable for infringement under applicable copyright law, except executing it on a computer or modifying a private copy. Propagation includes copying, distribution (with or without modification), making available to the public, and in some countries other activities as well. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;To “convey” a work means any kind of propagation that enables other parties to make or receive copies. Mere interaction with a user through a computer network, with no transfer of a copy, is not conveying. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;An interactive user interface displays “Appropriate Legal Notices” to the extent that it includes a convenient and prominently visible feature that (1) displays an appropriate copyright notice, and (2) tells the user that there is no warranty for the work (except to the extent that warranties are provided), that licensees may convey the work under this License, and how to view a copy of this License. If the interface presents a list of user commands or options, such as a menu, a prominent item in the list meets this criterion. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;section1&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;. Source Code. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;The “source code” for a work means the preferred form of the work for making modifications to it. “Object code” means any non-source form of a work. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;A “Standard Interface” means an interface that either is an official standard defined by a recognized standards body, or, in the case of interfaces specified for a particular programming language, one that is widely used among developers working in that language. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;The “System Libraries” of an executable work include anything, other than the work as a whole, that (a) is included in the normal form of packaging a Major Component, but which is not part of that Major Component, and (b) serves only to enable use of the work with that Major Component, or to implement a Standard Interface for which an implementation is available to the public in source code form. A “Major Component”, in this context, means a major essential component (kernel, window system, and so on) of the specific operating system (if any) on which the executable work runs, or a compiler used to produce the work, or an object code interpreter used to run it. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;The “Corresponding Source” for a work in object code form means all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. However, it does not include the work&apos;s System Libraries, or general-purpose tools or generally available free programs which are used unmodified in performing those activities but which are not part of the work. For example, Corresponding Source includes interface definition files associated with source files for the work, and the source code for shared libraries and dynamically linked subprograms that the work is specifically designed to require, such as by intimate data communication or control flow between those subprograms and other parts of the work. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;The Corresponding Source need not include anything that users can regenerate automatically from other parts of the Corresponding Source. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;The Corresponding Source for a work in source code form is that same work. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;section2&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;. Basic Permissions. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;All rights granted under this License are granted for the term of copyright on the Program, and are irrevocable provided the stated conditions are met. This License explicitly affirms your unlimited permission to run the unmodified Program. The output from running a covered work is covered by this License only if the output, given its content, constitutes a covered work. This License acknowledges your rights of fair use or other equivalent, as provided by copyright law. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;You may make, run and propagate covered works that you do not convey, without conditions so long as your license otherwise remains in force. You may convey covered works to others for the sole purpose of having them make modifications exclusively for you, or provide you with facilities for running those works, provided that you comply with the terms of this License in conveying all material for which you do not control copyright. Those thus making or running the covered works for you must do so exclusively on your behalf, under your direction and control, on terms that prohibit them from making any copies of your copyrighted material outside their relationship with you. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Conveying under any other circumstances is permitted solely under the conditions stated below. Sublicensing is not allowed; section 10 makes it unnecessary. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;section3&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;3&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;. Protecting Users&apos; Legal Rights From Anti-Circumvention Law. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;No covered work shall be deemed part of an effective technological measure under any applicable law fulfilling obligations under article 11 of the WIPO copyright treaty adopted on 20 December 1996, or similar laws prohibiting or restricting circumvention of such measures. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;When you convey a covered work, you waive any legal power to forbid circumvention of technological measures to the extent such circumvention is effected by exercising rights under this License with respect to the covered work, and you disclaim any intention to limit operation or modification of the work as a means of enforcing, against the work&apos;s users, your or third parties&apos; legal rights to forbid circumvention of technological measures. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;section4&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;4&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;. Conveying Verbatim Copies. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;You may convey verbatim copies of the Program&apos;s source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice; keep intact all notices stating that this License and any non-permissive terms added in accord with section 7 apply to the code; keep intact all notices of the absence of any warranty; and give all recipients a copy of this License along with the Program. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;You may charge any price or no price for each copy that you convey, and you may offer support or warranty protection for a fee. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;section5&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;5&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;. Conveying Modified Source Versions. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;You may convey a work based on the Program, or the modifications to produce it from the Program, in the form of source code under the terms of section 4, provided that you also meet all of these conditions: &lt;/span&gt;&lt;/p&gt;
++&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-size:10pt;&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;a) The work must carry prominent notices stating that you modified it, and giving a relevant date. &lt;/li&gt;
++&lt;li style=&quot; font-size:10pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;b) The work must carry prominent notices stating that it is released under this License and any conditions added under section 7. This requirement modifies the requirement in section 4 to “keep intact all notices”. &lt;/li&gt;
++&lt;li style=&quot; font-size:10pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;c) You must license the entire work, as a whole, under this License to anyone who comes into possession of a copy. This License will therefore apply, along with any applicable section 7 additional terms, to the whole of the work, and all its parts, regardless of how they are packaged. This License gives no permission to license the work in any other way, but it does not invalidate such permission if you have separately received it. &lt;/li&gt;
++&lt;li style=&quot; font-size:10pt;&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;d) If the work has interactive user interfaces, each must display Appropriate Legal Notices; however, if the Program has interactive interfaces that do not display Appropriate Legal Notices, your work need not make them do so. &lt;/li&gt;&lt;/ul&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;A compilation of a covered work with other separate and independent works, which are not by their nature extensions of the covered work, and which are not combined with it such as to form a larger program, in or on a volume of a storage or distribution medium, is called an “aggregate” if the compilation and its resulting copyright are not used to limit the access or legal rights of the compilation&apos;s users beyond what the individual works permit. Inclusion of a covered work in an aggregate does not cause this License to apply to the other parts of the aggregate. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;section6&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;6&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;. Conveying Non-Source Forms. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;You may convey a covered work in object code form under the terms of sections 4 and 5, provided that you also convey the machine-readable Corresponding Source under the terms of this License, in one of these ways: &lt;/span&gt;&lt;/p&gt;
++&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-size:10pt;&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;a) Convey the object code in, or embodied in, a physical product (including a physical distribution medium), accompanied by the Corresponding Source fixed on a durable physical medium customarily used for software interchange. &lt;/li&gt;
++&lt;li style=&quot; font-size:10pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;b) Convey the object code in, or embodied in, a physical product (including a physical distribution medium), accompanied by a written offer, valid for at least three years and valid for as long as you offer spare parts or customer support for that product model, to give anyone who possesses the object code either (1) a copy of the Corresponding Source for all the software in the product that is covered by this License, on a durable physical medium customarily used for software interchange, for a price no more than your reasonable cost of physically performing this conveying of source, or (2) access to copy the Corresponding Source from a network server at no charge. &lt;/li&gt;
++&lt;li style=&quot; font-size:10pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;c) Convey individual copies of the object code with a copy of the written offer to provide the Corresponding Source. This alternative is allowed only occasionally and noncommercially, and only if you received the object code with such an offer, in accord with subsection 6b. &lt;/li&gt;
++&lt;li style=&quot; font-size:10pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;d) Convey the object code by offering access from a designated place (gratis or for a charge), and offer equivalent access to the Corresponding Source in the same way through the same place at no further charge. You need not require recipients to copy the Corresponding Source along with the object code. If the place to copy the object code is a network server, the Corresponding Source may be on a different server (operated by you or a third party) that supports equivalent copying facilities, provided you maintain clear directions next to the object code saying where to find the Corresponding Source. Regardless of what server hosts the Corresponding Source, you remain obligated to ensure that it is available for as long as needed to satisfy these requirements. &lt;/li&gt;
++&lt;li style=&quot; font-size:10pt;&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;e) Convey the object code using peer-to-peer transmission, provided you inform other peers where the object code and Corresponding Source of the work are being offered to the general public at no charge under subsection 6d. &lt;/li&gt;&lt;/ul&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;A separable portion of the object code, whose source code is excluded from the Corresponding Source as a System Library, need not be included in conveying the object code work. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;A “User Product” is either (1) a “consumer product”, which means any tangible personal property which is normally used for personal, family, or household purposes, or (2) anything designed or sold for incorporation into a dwelling. In determining whether a product is a consumer product, doubtful cases shall be resolved in favor of coverage. For a particular product received by a particular user, “normally used” refers to a typical or common use of that class of product, regardless of the status of the particular user or of the way in which the particular user actually uses, or expects or is expected to use, the product. A product is a consumer product regardless of whether the product has substantial commercial, industrial or non-consumer uses, unless such uses represent the only significant mode of use of the product. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;“Installation Information” for a User Product means any methods, procedures, authorization keys, or other information required to install and execute modified versions of a covered work in that User Product from a modified version of its Corresponding Source. The information must suffice to ensure that the continued functioning of the modified object code is in no case prevented or interfered with solely because modification has been made. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;If you convey an object code work under this section in, or with, or specifically for use in, a User Product, and the conveying occurs as part of a transaction in which the right of possession and use of the User Product is transferred to the recipient in perpetuity or for a fixed term (regardless of how the transaction is characterized), the Corresponding Source conveyed under this section must be accompanied by the Installation Information. But this requirement does not apply if neither you nor any third party retains the ability to install modified object code on the User Product (for example, the work has been installed in ROM). &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;The requirement to provide Installation Information does not include a requirement to continue to provide support service, warranty, or updates for a work that has been modified or installed by the recipient, or for the User Product in which it has been modified or installed. Access to a network may be denied when the modification itself materially and adversely affects the operation of the network or violates the rules and protocols for communication across the network. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Corresponding Source conveyed, and Installation Information provided, in accord with this section must be in a format that is publicly documented (and with an implementation available to the public in source code form), and must require no special password or key for unpacking, reading or copying. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;section7&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;7&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;. Additional Terms. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;“Additional permissions” are terms that supplement the terms of this License by making exceptions from one or more of its conditions. Additional permissions that are applicable to the entire Program shall be treated as though they were included in this License, to the extent that they are valid under applicable law. If additional permissions apply only to part of the Program, that part may be used separately under those permissions, but the entire Program remains governed by this License without regard to the additional permissions. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;When you convey a copy of a covered work, you may at your option remove any additional permissions from that copy, or from any part of it. (Additional permissions may be written to require their own removal in certain cases when you modify the work.) You may place additional permissions on material, added by you to a covered work, for which you have or can give appropriate copyright permission. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Notwithstanding any other provision of this License, for material you add to a covered work, you may (if authorized by the copyright holders of that material) supplement the terms of this License with terms: &lt;/span&gt;&lt;/p&gt;
++&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; font-size:10pt;&quot; style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;a) Disclaiming warranty or limiting liability differently from the terms of sections 15 and 16 of this License; or &lt;/li&gt;
++&lt;li style=&quot; font-size:10pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;b) Requiring preservation of specified reasonable legal notices or author attributions in that material or in the Appropriate Legal Notices displayed by works containing it; or &lt;/li&gt;
++&lt;li style=&quot; font-size:10pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;c) Prohibiting misrepresentation of the origin of that material, or requiring that modified versions of such material be marked in reasonable ways as different from the original version; or &lt;/li&gt;
++&lt;li style=&quot; font-size:10pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;d) Limiting the use for publicity purposes of names of licensors or authors of the material; or &lt;/li&gt;
++&lt;li style=&quot; font-size:10pt;&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;e) Declining to grant rights under trademark law for use of some trade names, trademarks, or service marks; or &lt;/li&gt;
++&lt;li style=&quot; font-size:10pt;&quot; style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;f) Requiring indemnification of licensors and authors of that material by anyone who conveys the material (or modified versions of it) with contractual assumptions of liability to the recipient, for any liability that these contractual assumptions directly impose on those licensors and authors. &lt;/li&gt;&lt;/ul&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;All other non-permissive additional terms are considered “further restrictions” within the meaning of section 10. If the Program as you received it, or any part of it, contains a notice stating that it is governed by this License along with a term that is a further restriction, you may remove that term. If a license document contains a further restriction but permits relicensing or conveying under this License, you may add to a covered work material governed by the terms of that license document, provided that the further restriction does not survive such relicensing or conveying. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;If you add terms to a covered work in accord with this section, you must place, in the relevant source files, a statement of the additional terms that apply to those files, or a notice indicating where to find the applicable terms. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Additional terms, permissive or non-permissive, may be stated in the form of a separately written license, or stated as exceptions; the above requirements apply either way. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;section8&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;8&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;. Termination. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;You may not propagate or modify a covered work except as expressly provided under this License. Any attempt otherwise to propagate or modify it is void, and will automatically terminate your rights under this License (including any patent licenses granted under the third paragraph of section 11). &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;However, if you cease all violation of this License, then your license from a particular copyright holder is reinstated (a) provisionally, unless and until the copyright holder explicitly and finally terminates your license, and (b) permanently, if the copyright holder fails to notify you of the violation by some reasonable means prior to 60 days after the cessation. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Moreover, your license from a particular copyright holder is reinstated permanently if the copyright holder notifies you of the violation by some reasonable means, this is the first time you have received notice of violation of this License (for any work) from that copyright holder, and you cure the violation prior to 30 days after your receipt of the notice. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Termination of your rights under this section does not terminate the licenses of parties who have received copies or rights from you under this License. If your rights have been terminated and not permanently reinstated, you do not qualify to receive new licenses for the same material under section 10. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;section9&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;9&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;. Acceptance Not Required for Having Copies. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;You are not required to accept this License in order to receive or run a copy of the Program. Ancillary propagation of a covered work occurring solely as a consequence of using peer-to-peer transmission to receive a copy likewise does not require acceptance. However, nothing other than this License grants you permission to propagate or modify any covered work. These actions infringe copyright if you do not accept this License. Therefore, by modifying or propagating a covered work, you indicate your acceptance of this License to do so. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;section10&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;0. Automatic Licensing of Downstream Recipients. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Each time you convey a covered work, the recipient automatically receives a license from the original licensors, to run, modify and propagate that work, subject to this License. You are not responsible for enforcing compliance by third parties with this License. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;An “entity transaction” is a transaction transferring control of an organization, or substantially all assets of one, or subdividing an organization, or merging organizations. If propagation of a covered work results from an entity transaction, each party to that transaction who receives a copy of the work also receives whatever licenses to the work the party&apos;s predecessor in interest had or could give under the previous paragraph, plus a right to possession of the Corresponding Source of the work from the predecessor in interest, if the predecessor has it or can get it with reasonable efforts. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;You may not impose any further restrictions on the exercise of the rights granted or affirmed under this License. For example, you may not impose a license fee, royalty, or other charge for exercise of rights granted under this License, and you may not initiate litigation (including a cross-claim or counterclaim in a lawsuit) alleging that any patent claim is infringed by making, using, selling, offering for sale, or importing the Program or any portion of it. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;section11&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;1. Patents. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;A “contributor” is a copyright holder who authorizes use under this License of the Program or a work on which the Program is based. The work thus licensed is called the contributor&apos;s “contributor version”. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;A contributor&apos;s “essential patent claims” are all patent claims owned or controlled by the contributor, whether already acquired or hereafter acquired, that would be infringed by some manner, permitted by this License, of making, using, or selling its contributor version, but do not include claims that would be infringed only as a consequence of further modification of the contributor version. For purposes of this definition, “control” includes the right to grant patent sublicenses in a manner consistent with the requirements of this License. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor&apos;s essential patent claims, to make, use, sell, offer for sale, import and otherwise run, modify and propagate the contents of its contributor version. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;In the following three paragraphs, a “patent license” is any express agreement or commitment, however denominated, not to enforce a patent (such as an express permission to practice a patent or covenant not to sue for patent infringement). To “grant” such a patent license to a party means to make such an agreement or commitment not to enforce a patent against the party. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;If you convey a covered work, knowingly relying on a patent license, and the Corresponding Source of the work is not available for anyone to copy, free of charge and under the terms of this License, through a publicly available network server or other readily accessible means, then you must either (1) cause the Corresponding Source to be so available, or (2) arrange to deprive yourself of the benefit of the patent license for this particular work, or (3) arrange, in a manner consistent with the requirements of this License, to extend the patent license to downstream recipients. “Knowingly relying” means you have actual knowledge that, but for the patent license, your conveying the covered work in a country, or your recipient&apos;s use of the covered work in a country, would infringe one or more identifiable patents in that country that you have reason to believe are valid. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;If, pursuant to or in connection with a single transaction or arrangement, you convey, or propagate by procuring conveyance of, a covered work, and grant a patent license to some of the parties receiving the covered work authorizing them to use, propagate, modify or convey a specific copy of the covered work, then the patent license you grant is automatically extended to all recipients of the covered work and works based on it. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;A patent license is “discriminatory” if it does not include within the scope of its coverage, prohibits the exercise of, or is conditioned on the non-exercise of one or more of the rights that are specifically granted under this License. You may not convey a covered work if you are a party to an arrangement with a third party that is in the business of distributing software, under which you make payment to the third party based on the extent of your activity of conveying the work, and under which the third party grants, to any of the parties who would receive the covered work from you, a discriminatory patent license (a) in connection with copies of the covered work conveyed by you (or copies made from those copies), or (b) primarily for and in connection with specific products or compilations that contain the covered work, unless you entered into that arrangement, or that patent license was granted, prior to 28 March 2007. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Nothing in this License shall be construed as excluding or limiting any implied license or other defenses to infringement that may otherwise be available to you under applicable patent law. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;section12&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;2. No Surrender of Others&apos; Freedom. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;If conditions are imposed on you (whether by court order, agreement or otherwise) that contradict the conditions of this License, they do not excuse you from the conditions of this License. If you cannot convey a covered work so as to satisfy simultaneously your obligations under this License and any other pertinent obligations, then as a consequence you may not convey it at all. For example, if you agree to terms that obligate you to collect a royalty for further conveying from those to whom you convey the Program, the only way you could satisfy both those terms and this License would be to refrain entirely from conveying the Program. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;section13&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;3. Use with the GNU Affero General Public License. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Notwithstanding any other provision of this License, you have permission to link or combine any covered work with a work licensed under version 3 of the GNU Affero General Public License into a single combined work, and to convey the resulting work. The terms of this License will continue to apply to the part which is the covered work, but the special requirements of the GNU Affero General Public License, section 13, concerning interaction through a network will apply to the combination as such. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;section14&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;4. Revised Versions of this License. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;The Free Software Foundation may publish revised and/or new versions of the GNU General Public License from time to time. Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Each version is given a distinguishing version number. If the Program specifies that a certain numbered version of the GNU General Public License “or any later version” applies to it, you have the option of following the terms and conditions either of that numbered version or of any later version published by the Free Software Foundation. If the Program does not specify a version number of the GNU General Public License, you may choose any version ever published by the Free Software Foundation. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;If the Program specifies that a proxy can decide which future versions of the GNU General Public License can be used, that proxy&apos;s public statement of acceptance of a version permanently authorizes you to choose that version for the Program. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Later license versions may give you additional or different permissions. However, no additional obligations are imposed on any author or copyright holder as a result of your choosing to follow a later version. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;section15&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;5. Disclaimer of Warranty. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;section16&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;6. Limitation of Liability. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;section17&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;7. Interpretation of Sections 15 and 16. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;If the disclaimer of warranty and limitation of liability provided above cannot be given local legal effect according to their terms, reviewing courts shall apply local law that most closely approximates an absolute waiver of all civil liability in connection with the Program, unless a warranty or assumption of liability accompanies a copy of the Program in return for a fee. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;END OF TERMS AND CONDITIONS &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;a name=&quot;howto&quot;&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;H&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;ow to Apply These Terms to Your New Programs &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;If you develop a new program, and you want it to be of the greatest possible use to the public, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;To do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively state the exclusion of warranty; and each file should have at least the “copyright” line and a pointer to where the full notice is found. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Courier New,courier&apos;; font-size:10pt;&quot;&gt;    &amp;lt;one line to give the program&apos;s name and a brief idea of what it does.&amp;gt;&lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Courier New,courier&apos;; font-size:10pt;&quot;&gt;    Copyright (C) &amp;lt;year&amp;gt;  &amp;lt;name of author&amp;gt;&lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Courier New,courier&apos;; font-size:10pt;&quot;&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Courier New,courier&apos;; font-size:10pt;&quot;&gt;    This program is free software: you can redistribute it and/or modify&lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Courier New,courier&apos;; font-size:10pt;&quot;&gt;    it under the terms of the GNU General Public License as published by&lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Courier New,courier&apos;; font-size:10pt;&quot;&gt;    the Free Software Foundation, either version 3 of the License, or&lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Courier New,courier&apos;; font-size:10pt;&quot;&gt;    (at your option) any later version.&lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Courier New,courier&apos;; font-size:10pt;&quot;&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Courier New,courier&apos;; font-size:10pt;&quot;&gt;    This program is distributed in the hope that it will be useful,&lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Courier New,courier&apos;; font-size:10pt;&quot;&gt;    but WITHOUT ANY WARRANTY; without even the implied warranty of&lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Courier New,courier&apos;; font-size:10pt;&quot;&gt;    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the&lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Courier New,courier&apos;; font-size:10pt;&quot;&gt;    GNU General Public License for more details.&lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;Courier New,courier&apos;; font-size:10pt;&quot;&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Courier New,courier&apos;; font-size:10pt;&quot;&gt;    You should have received a copy of the GNU General Public License&lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Courier New,courier&apos;; font-size:10pt;&quot;&gt;    along with this program.  If not, see &amp;lt;http://www.gnu.org/licenses/&amp;gt;. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Also add information on how to contact you by electronic and paper mail. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;If the program does terminal interaction, make it output a short notice like this when it starts in an interactive mode: &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Courier New,courier&apos;; font-size:10pt;&quot;&gt;    &amp;lt;program&amp;gt;  Copyright (C) &amp;lt;year&amp;gt;  &amp;lt;name of author&amp;gt;&lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Courier New,courier&apos;; font-size:10pt;&quot;&gt;    This program comes with ABSOLUTELY NO WARRANTY; for details type `show w&apos;.&lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Courier New,courier&apos;; font-size:10pt;&quot;&gt;    This is free software, and you are welcome to redistribute it&lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;Courier New,courier&apos;; font-size:10pt;&quot;&gt;    under certain conditions; type `show c&apos; for details. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;The hypothetical commands `show w&apos; and `show c&apos; should show the appropriate parts of the General Public License. Of course, your program&apos;s commands might be different; for a GUI interface, you would use an “about box”. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;You should also get your employer (if you work as a programmer) or school, if any, to sign a “copyright disclaimer” for the program, if necessary. For more information on this, and how to apply and follow the GNU GPL, see &amp;lt;http://www.gnu.org/licenses/&amp;gt;. &lt;/span&gt;&lt;/p&gt;
++&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;The GNU General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License. But first, please read &amp;lt;http://www.gnu.org/philosophy/why-not-lgpl.htm&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+     </message>
+     <message>
+         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+@@ -551,17 +699,15 @@
+ &lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt; font-style:italic;&quot;&gt;&lt;/p&gt;
+ &lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Previous 2006-2009:&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;&lt;br /&gt;Fabrizio Di Marco&lt;/span&gt;&lt;/p&gt;
+ &lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;Marco Di Antonio&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+-        <translation type="unfinished"></translation>
+-    </message>
+-    <message>
+-        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
++        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+ &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+ p, li { white-space: pre-wrap; }
+ &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+-&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;DejaVu Sans&apos;; font-size:8pt;&quot;&gt;&lt;/p&gt;
+-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;AcetoneISO Subversion&lt;/span&gt;&lt;/p&gt;
+-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;xx/11/2010&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+-        <translation type="unfinished"></translation>
++&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Манипулятор образов cd/dvd для Linux&lt;br /&gt;создается:&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
++&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Текущий: &lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;Marco Di Antonio&lt;/span&gt;&lt;/p&gt;
++&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:10pt; font-style:italic;&quot;&gt;&lt;/p&gt;
++&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Previous 2006-2009:&lt;/span&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;&lt;br /&gt;Fabrizio Di Marco&lt;/span&gt;&lt;/p&gt;
++&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-style:italic;&quot;&gt;Marco Di Antonio&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+     </message>
+     <message>
+         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+@@ -587,7 +733,45 @@
+ &lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:8pt;&quot;&gt;And finally... a big thanks goes to You for using our software!&lt;/span&gt;&lt;/p&gt;
+ &lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:8pt;&quot;&gt;Thanks to all of You,&lt;/span&gt;&lt;/p&gt;
+ &lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:8pt; font-weight:600;&quot;&gt;The AcetoneISO Team&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+-        <translation type="unfinished"></translation>
++        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
++&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
++p, li { white-space: pre-wrap; }
++&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
++&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:8pt; font-weight:600;&quot;&gt;Переводчики:&lt;/span&gt;&lt;/p&gt;
++&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:8pt;&quot;&gt;Итальянский: Original Authors&lt;/span&gt;&lt;/p&gt;
++&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:8pt;&quot;&gt;Чешский: Hanz&lt;/span&gt;&lt;/p&gt;
++&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:8pt;&quot;&gt;Русский: Арсений Муравьев, Виктор Рыжих&lt;/span&gt;&lt;/p&gt;
++&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:8pt;&quot;&gt;Польский: Jarek&lt;/span&gt;&lt;/p&gt;
++&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:8pt;&quot;&gt;Румынский: Aparaschivei Florin&lt;/span&gt;&lt;/p&gt;
++&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:8pt;&quot;&gt;Венгерский: Sandor Lisovszki&lt;/span&gt;&lt;/p&gt;
++&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:8pt;&quot;&gt;Немецкий: Johannes Obermayr&lt;/span&gt;&lt;/p&gt;
++&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;DejaVu Sans&apos;; font-size:8pt;&quot;&gt;&lt;/p&gt;
++&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:8pt; font-weight:600;&quot;&gt;Особая благодарность выражается:&lt;/span&gt;&lt;/p&gt;
++&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:8pt;&quot;&gt;Всем людям, которые сделали пожертвования!&lt;/span&gt;&lt;/p&gt;
++&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:8pt;&quot;&gt;Всем мейнтейнерам пакетов.&lt;/span&gt;&lt;/p&gt;
++&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:8pt;&quot;&gt;Всем людям, которые предоставили отчеты об ошибках, патчи и предложения.&lt;/span&gt;&lt;/p&gt;
++&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:8pt;&quot;&gt;Irc #qt channel on irc.freenode.net for all their help on C++ and Qt4&lt;/span&gt;&lt;/p&gt;
++&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:8pt;&quot;&gt;Гимн для такой замечательный среды разработки, как Qt4!&lt;/span&gt;&lt;/p&gt;
++&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:8pt;&quot;&gt;Все инструменты, используемые AcetoneISO, с открытым исходным кодом : это fuseiso, mencoder, mplayer, mencoder, dd, cdrdao, wodim, growisofs, youtube-dl, 7z, ffmpeg, gnupg, dvd+r формат и другие!&lt;/span&gt;&lt;/p&gt;
++&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:8pt;&quot;&gt;И наконец... большое спасибо Вам за использование нашего программного обеспечения!&lt;/span&gt;&lt;/p&gt;
++&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:8pt;&quot;&gt;Благодарим всех Вас,&lt;/span&gt;&lt;/p&gt;
++&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;; font-size:8pt; font-weight:600;&quot;&gt;The AcetoneISO Team&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
++    </message>
++    <message>
++        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
++&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
++p, li { white-space: pre-wrap; }
++&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
++&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;DejaVu Sans&apos;; font-size:8pt;&quot;&gt;&lt;/p&gt;
++&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;AcetoneISO 2.3&lt;/span&gt;&lt;/p&gt;
++&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;15/11/2010&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
++        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
++&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
++p, li { white-space: pre-wrap; }
++&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
++&lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;DejaVu Sans&apos;; font-size:8pt;&quot;&gt;&lt;/p&gt;
++&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;AcetoneISO 2.3&lt;/span&gt;&lt;/p&gt;
++&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;15/11/2010&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+     </message>
+ </context>
+ <context>
+@@ -610,11 +794,11 @@
+     </message>
+     <message>
+         <source>unmount</source>
+-        <translation type="unfinished">Размонтировать</translation>
++        <translation>Размонтировать</translation>
+     </message>
+     <message>
+         <source>database</source>
+-        <translation type="unfinished">База данных</translation>
++        <translation>База данных</translation>
+     </message>
+     <message>
+         <source>Double click to mount image</source>
+@@ -654,7 +838,7 @@
+     </message>
+     <message>
+         <source>Backup CD-Audio</source>
+-        <translation>Резервная копия CD-Audio</translation>
++        <translation>Резервная копия аудио CD</translation>
+     </message>
+     <message>
+         <source>Md5-Sum</source>
+@@ -678,15 +862,15 @@
+     </message>
+     <message>
+         <source>Image Info</source>
+-        <translation>Информация о образе</translation>
++        <translation>Информация об образе</translation>
+     </message>
+     <message>
+         <source>Extract Boot Image</source>
+-        <translation>Распоковать загрузочный образ</translation>
++        <translation>Распаковать загрузочный образ</translation>
+     </message>
+     <message>
+         <source>Generate to file</source>
+-        <translation>Создание файла</translation>
++        <translation>Генерировать в файл</translation>
+     </message>
+     <message>
+         <source>Check</source>
+@@ -738,7 +922,7 @@
+     </message>
+     <message>
+         <source>Convert MacOs Image</source>
+-        <translation>Преобразовать MacOS-образ</translation>
++        <translation>Преобразовать образ MacOS</translation>
+     </message>
+     <message>
+         <source>Loading GUI...</source>
+@@ -758,7 +942,7 @@
+     </message>
+     <message>
+         <source>no cdrdao found in /usr/bin</source>
+-        <translation>Не найден cdrdao в /usr/bin</translation>
++        <translation>не найден cdrdao в /usr/bin</translation>
+     </message>
+     <message>
+         <source>AcetoneISO2::Select Image to compress</source>
+@@ -778,11 +962,11 @@
+     </message>
+     <message>
+         <source>Do You want to compress in Ultra High mode? (very slow)</source>
+-        <translation>Вы хотите применить сжатие в Ultra High mode? (очень медленно)</translation>
++        <translation>Вы хотите применить сжатие в режиме Ultra High? (очень медленно)</translation>
+     </message>
+     <message>
+         <source>no 7z found in /usr/bin</source>
+-        <translation>Не найдено 7z в /usr/bin</translation>
++        <translation>не найден 7z в /usr/bin</translation>
+     </message>
+     <message>
+         <source>Open Image</source>
+@@ -870,7 +1054,7 @@
+     </message>
+     <message>
+         <source>Select from where to extract Boot Image:</source>
+-        <translation>Выберите откуда распоковать загрузочный образ:</translation>
++        <translation>Выбрать куда распаковать загрузочный образ:</translation>
+     </message>
+     <message>
+         <source>ISO File</source>
+@@ -902,7 +1086,7 @@
+     </message>
+     <message>
+         <source> can&apos;t be mounted</source>
+-        <translation>Не возможно смонтировать</translation>
++        <translation>Невозможно смонтировать</translation>
+     </message>
+     <message>
+         <source>AcetoneISO2::Select folder to unmount</source>
+@@ -928,13 +1112,13 @@
+     </message>
+     <message>
+         <source>Md5 (*.md5)</source>
+-        <translation>Md5 (*.md5)</translation>
++        <translation>md5 (*.md5)</translation>
+     </message>
+     <message>
+         <source>All Virtual Drives are busy,
+ Unmount some Virtual Drive first!</source>
+         <translation>Все виртуальное диски заняты.
+-Unmount some Virtual Drive first!</translation>
++Размонтируйте сначала какой-нибудь виртуальный диск!</translation>
+     </message>
+     <message>
+         <source>AcetoneISO2::Select Parts</source>
+@@ -950,7 +1134,7 @@
+     </message>
+     <message>
+         <source>Operation succesfully finished!</source>
+-        <translation type="unfinished">Операция успешно завершена!</translation>
++        <translation>Операция успешно завершена!</translation>
+     </message>
+     <message>
+         <source>Operation succesfully finished!
+@@ -958,9 +1142,9 @@
+ modprobe hfsplus
+ mount -t hfsplus -o loop &lt;converted-image.img&gt; /folder_you_want</source>
+         <translation>Операция успешно завершена!
+-Монтировать преобразованный файл, открыть терминал и запустить как root:
++Смонтируйте преобразованный файл, откройте терминал и запустите от root:
+ modprobe hfsplus
+-mount -t hfsplus -o loop &lt;converted-image.img&gt; /folder_you_want</translation>
++mount -t hfsplus -o loop &lt;converted-image.img&gt; /путь к папке</translation>
+     </message>
+     <message>
+         <source>Image succesfully merged</source>
+@@ -968,11 +1152,11 @@
+     </message>
+     <message>
+         <source>Select DVD-Movie to Play</source>
+-        <translation>Выберите DVD-Movie для проигрывания</translation>
++        <translation>Выбрать DVD фильм для проигрывания</translation>
+     </message>
+     <message>
+         <source>DVD-Movie Image (*.iso *.bin *.img *.mdf *.nrg)</source>
+-        <translation>Образ DVD-Movie (*.iso *.bin *.img *.mdf *.nrg)</translation>
++        <translation>Образ DVD фильма (*.iso *.bin *.img *.mdf *.nrg)</translation>
+     </message>
+     <message>
+         <source> mounted</source>
+@@ -1000,7 +1184,7 @@
+     </message>
+     <message>
+         <source>select an image to delete</source>
+-        <translation>Выберите образ для удаления</translation>
++        <translation>выбрать образ для удаления</translation>
+     </message>
+     <message>
+         <source>Open Image to be splitted</source>
+@@ -1028,7 +1212,7 @@
+     </message>
+     <message>
+         <source>select an image to unmount from the virtual-drives display</source>
+-        <translation>Выберите образ, чтобы размонтировать от дисплея виртуальных дисков</translation>
++        <translation>выбрать образ для размонтирования с виртуальных дисков</translation>
+     </message>
+     <message>
+         <source>Open Compressed Image</source>
+@@ -1044,7 +1228,7 @@
+     </message>
+     <message>
+         <source>no 7z found in /usr/bin, please install p7zip-full package</source>
+-        <translation>не найден 7z в /usr/bin, пожалуйста установите пакет p7zip-full</translation>
++        <translation>не найден 7z в /usr/bin, пожалуйста установите пакет p7zip</translation>
+     </message>
+     <message>
+         <source>Please note this utility will generate a BIN image which could not be mounted or read in any way . 
+@@ -1114,7 +1298,7 @@
+     </message>
+     <message>
+         <source>Convert Image to ISO</source>
+-        <translation>преобразовать образ в ISO</translation>
++        <translation>Преобразовать образ в iso</translation>
+     </message>
+     <message>
+         <source>Generate ISO from CD/DVD</source>
+@@ -1122,11 +1306,11 @@
+     </message>
+     <message>
+         <source>Generate ISO from folder</source>
+-        <translation>Создать ISO из папки</translation>
++        <translation>Создать iso из папки</translation>
+     </message>
+     <message>
+         <source>Rip a PSX1 game for epsxe/psx emulators</source>
+-        <translation>Создать игру PSX1 для эмуляторов epsxe/psx</translation>
++        <translation>Скопировать игру PSX1 для эмуляторов epsxe/psx</translation>
+     </message>
+     <message>
+         <source>Split</source>
+@@ -1166,11 +1350,11 @@
+     </message>
+     <message>
+         <source>Generate Cue for BIN/IMG images</source>
+-        <translation>Создать Cue из BIN/IMG образов</translation>
++        <translation>Создать cue для bin/img образов</translation>
+     </message>
+     <message>
+         <source>Options</source>
+-        <translation type="unfinished">Настройки</translation>
++        <translation>Настройки</translation>
+     </message>
+     <message>
+         <source>Image Files (*.iso *.daa *.bin *.mdf *.ashdisc *.bwi *.b5i *.lcd *.img *.cdi *.cif *.p01 *.pdi *.nrg *.ncd *.pxi *.gi *.fcd *.vcd *.c2d *.dmg)</source>
+@@ -1190,501 +1374,523 @@
+     </message>
+     <message>
+         <source>Boot</source>
+-        <translation type="unfinished"></translation>
++        <translation>Загрузка</translation>
+     </message>
+     <message>
+         <source>Please Unmount the movie first</source>
+-        <translation type="unfinished"></translation>
++        <translation>Сначала размонтируйте фильм, пожалуйста</translation>
+     </message>
+     <message>
+         <source>Choose a method to play the movie.
+ Method 1 generally works, if it doesn&apos;t try Method 2.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Выберите метод для воспроизведения фильма.
++Метод 1 обычно работает, но если не сможет пробуйте Метод 2.</translation>
+     </message>
+     <message>
+         <source>Method 1</source>
+-        <translation type="unfinished"></translation>
++        <translation>Метод 1</translation>
+     </message>
+     <message>
+         <source>Method 2</source>
+-        <translation type="unfinished"></translation>
++        <translation>Метод 2</translation>
+     </message>
+     <message>
+         <source>Mount UDF ISO</source>
+-        <translation type="unfinished"></translation>
++        <translation>Монтировать udf iso</translation>
+     </message>
+     <message>
+         <source>Convert FLV 2 AVI</source>
+-        <translation type="unfinished"></translation>
++        <translation>Конвертировать flv в avi</translation>
+     </message>
+     <message>
+         <source>Please be sure the DVD disc is inserted in device and then press OK.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Убедитесь что DVD диск вставлен в устройство, а затем нажмите ОК.</translation>
+     </message>
+     <message>
+         <source>Encoding Pass 1 has succesfully finished.
+ Pass 2 will be done now. Please choose the bitrate in the next dialog and then choose where to save the video.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Первый проход кодирования успешно завершен.
++Теперь будет сделан второй проход. Выберите битрейт в следующем диалоговом окне и затем выберите, куда сохранить видео.</translation>
+     </message>
+     <message>
+         <source>Please insert Bitrate. Higher bitrate means more quality but will generate a bigger file.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Пожалуйста, выберите битрейт. Высокий битрейт означает лучшее качество, но генерирует больший файл.</translation>
+     </message>
+     <message>
+         <source>Video (*.avi)</source>
+-        <translation type="unfinished"></translation>
++        <translation>Видео (*.avi)</translation>
+     </message>
+     <message>
+         <source>Select Video</source>
+-        <translation type="unfinished"></translation>
++        <translation>Выбрать видео</translation>
+     </message>
+     <message>
+         <source>Please insert the Fixed Quant number.
+ Lowering the number will result in a higher quality video.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Пожалуйста, вставьте номер fixed quant.
++Снижение числа приведет к более высокому качеству видео.</translation>
+     </message>
+     <message>
+         <source>Convert generic video 2 Xvid AVI</source>
+-        <translation type="unfinished"></translation>
++        <translation>Преобразовать видео в xvid avi</translation>
+     </message>
+     <message>
+         <source>Rip DVD 2 Xvid AVI</source>
+-        <translation type="unfinished"></translation>
++        <translation>Скопировать DVD в xvid avi</translation>
+     </message>
+     <message>
+         <source>Select FLV Video</source>
+-        <translation type="unfinished"></translation>
++        <translation>Выбрать flv видео</translation>
+     </message>
+     <message>
+         <source>Video Files (*.flv )</source>
+-        <translation type="unfinished"></translation>
++        <translation>Видео файлы (*.flv )</translation>
+     </message>
+     <message>
+         <source>An error has occured.
+ Please try converting the FLV video with Convert generic video to Xvid AVI feature</source>
+-        <translation type="unfinished"></translation>
++        <translation>Произошла ошибка.
++Попробуйте преобразовать видео FLV в Xvid AVI</translation>
+     </message>
+     <message>
+         <source>YouTube Download Video</source>
+-        <translation type="unfinished"></translation>
++        <translation>Загрузить видео на YouTube</translation>
+     </message>
+     <message>
+         <source>Insert YouTube&apos;s URL:
+ Note: YouTube&apos;s server is often very slow, big files can require a lot of time to download!</source>
+-        <translation type="unfinished"></translation>
++        <translation>Вставьте URL YouTube:
++Примечание: Сервер YouTube, часто очень перегружен, большим файлам может потребоваться много времени для загрузки!</translation>
+     </message>
+     <message>
+         <source>Video (*.flv)</source>
+-        <translation type="unfinished"></translation>
++        <translation>Видео (*.flv)</translation>
+     </message>
+     <message>
+         <source>&amp;File</source>
+-        <translation type="unfinished"></translation>
++        <translation>&amp;Файл</translation>
+     </message>
+     <message>
+         <source>&amp;Utilities</source>
+-        <translation type="unfinished"></translation>
++        <translation>&amp;Утилиты</translation>
+     </message>
+     <message>
+         <source>&amp;Help</source>
+-        <translation type="unfinished"></translation>
++        <translation>&amp;Справка</translation>
+     </message>
+     <message>
+         <source>Generate ISO from CD/DVD and it is:</source>
+-        <translation type="unfinished"></translation>
++        <translation>Создать iso из CD/DVD, и это:</translation>
+     </message>
+     <message>
+         <source>Play DVD image</source>
+-        <translation type="unfinished"></translation>
++        <translation>Воспроизвести образ DVD</translation>
+     </message>
+     <message>
+         <source>O&amp;ptions</source>
+-        <translation type="unfinished"></translation>
++        <translation>Н&amp;астройки</translation>
+     </message>
+     <message>
+         <source>&amp;Open</source>
+-        <translation type="unfinished"></translation>
++        <translation>&amp;Открыть</translation>
+     </message>
+     <message>
+         <source>Play</source>
+-        <translation type="unfinished"></translation>
++        <translation>Воспроизвести</translation>
+     </message>
+     <message>
+         <source>Donate</source>
+-        <translation type="unfinished"></translation>
++        <translation>Пожертвовать</translation>
+     </message>
+     <message>
+         <source>Anonymous Login</source>
+-        <translation type="unfinished"></translation>
++        <translation>Анонимный вход</translation>
+     </message>
+     <message>
+         <source>User Account Login</source>
+-        <translation type="unfinished"></translation>
++        <translation>Вход по аккаунту</translation>
+     </message>
+     <message>
+         <source>Burn CUE</source>
+-        <translation type="unfinished"></translation>
++        <translation>Записать CUE</translation>
+     </message>
+     <message>
+         <source>CD</source>
+-        <translation type="unfinished"></translation>
++        <translation></translation>
+     </message>
+     <message>
+         <source>DVD</source>
+-        <translation type="unfinished"></translation>
++        <translation></translation>
+     </message>
+     <message>
+         <source>to CD</source>
+-        <translation type="unfinished"></translation>
++        <translation>на CD</translation>
+     </message>
+     <message>
+         <source>to DVD</source>
+-        <translation type="unfinished"></translation>
++        <translation>на DVD</translation>
+     </message>
+     <message>
+         <source>Burn TOC</source>
+-        <translation type="unfinished"></translation>
++        <translation>Записать TOC</translation>
+     </message>
+     <message>
+         <source>Copy a normal CD/DVD data</source>
+-        <translation type="unfinished"></translation>
++        <translation>Копировать данные CD/DVD</translation>
+     </message>
+     <message>
+         <source>Copy a CD Audio</source>
+-        <translation type="unfinished"></translation>
++        <translation>Копировать аудио CD</translation>
+     </message>
+     <message>
+         <source>Copy a protected PC Game CD/DVD</source>
+-        <translation type="unfinished"></translation>
++        <translation>Копировать защищенную игру CD/DVD</translation>
+     </message>
+     <message>
+         <source>a standard data CD/DVD</source>
+-        <translation type="unfinished"></translation>
++        <translation>стандартные данные CD/DVD</translation>
+     </message>
+     <message>
+         <source>a CD Audio</source>
+-        <translation type="unfinished"></translation>
++        <translation>аудио CD</translation>
+     </message>
+     <message>
+         <source>a Playstation 1 Game</source>
+-        <translation type="unfinished"></translation>
++        <translation>игра Playstation 1</translation>
+     </message>
+     <message>
+         <source>a protected PC Game CD/DVD</source>
+-        <translation type="unfinished"></translation>
++        <translation>защищенная игра CD/DVD</translation>
+     </message>
+     <message>
+         <source>a DVD Video</source>
+-        <translation type="unfinished"></translation>
++        <translation>Видео DVD</translation>
+     </message>
+     <message>
+         <source>Copy a DVD Video</source>
+-        <translation type="unfinished"></translation>
++        <translation>Копировать DVD видео</translation>
+     </message>
+     <message>
+         <source>Copy a Playstation 1 Game</source>
+-        <translation type="unfinished"></translation>
++        <translation>Копировать игру Playstation 1</translation>
+     </message>
+     <message>
+         <source>
+ Did you insert correct CD/DVD device?</source>
+-        <translation type="unfinished"></translation>
++        <translation>
++Вы вставили правильный CD/DVD в устройство?</translation>
+     </message>
+     <message>
+         <source>Without Poweriso you won&apos;t be able to convert and extract images to ISO or folders!</source>
+-        <translation type="unfinished"></translation>
++        <translation>Без PowerISO вы не сможете конвертировать и извлекать образы ISO или папки!</translation>
+     </message>
+     <message>
+         <source>
+ Please see the log file in   </source>
+-        <translation type="unfinished"></translation>
++        <translation>
++Пожалуйста, см. лог файл в</translation>
+     </message>
+     <message>
+         <source>You are about to delete </source>
+-        <translation type="unfinished"></translation>
++        <translation>Вы собираетесь удалить</translation>
+     </message>
+     <message>
+         <source>
+ Are You sure?</source>
+-        <translation type="unfinished"></translation>
++        <translation>
++Вы уверены?</translation>
+     </message>
+     <message>
+         <source>Yes</source>
+-        <translation type="unfinished"></translation>
++        <translation>Да</translation>
+     </message>
+     <message>
+         <source>No way!</source>
+-        <translation type="unfinished"></translation>
++        <translation>Ни в коем случае!</translation>
+     </message>
+     <message>
+         <source>no genisoimage found in /usr/bin</source>
+-        <translation type="unfinished"></translation>
++        <translation>genisoimage не найден в /usr/bin</translation>
+     </message>
+     <message>
+         <source>The image </source>
+-        <translation type="unfinished"></translation>
++        <translation>Образ</translation>
+     </message>
+     <message>
+         <source> can&apos;t be mounted. You must convert it to ISO or extract content to a folder.
+ Please choose what to do:</source>
+-        <translation type="unfinished"></translation>
++        <translation>не может быть смонтирован. Вы должны преобразовать его в ISO или извлечь содержимое в папку.
++Пожалуйста, выберите, что делать:</translation>
+     </message>
+     <message>
+         <source> Convert to ISO </source>
+-        <translation type="unfinished"></translation>
++        <translation>Преобразовать в iso</translation>
+     </message>
+     <message>
+         <source> Extract image to a folder </source>
+-        <translation type="unfinished"></translation>
++        <translation>Распаковать образ в папку</translation>
+     </message>
+     <message>
+         <source>Please insert the Byte Size.
+ Leaving default is the best solution!</source>
+-        <translation type="unfinished"></translation>
++        <translation>Пожалуйста, введите размер в байтах.
++Выбор по умолчанию является лучшим решением!</translation>
+     </message>
+     <message>
+         <source>Please insert your YouTube&apos;s username</source>
+-        <translation type="unfinished"></translation>
++        <translation>Пожалуйста, введите ваш логин на YouTube</translation>
+     </message>
+     <message>
+         <source>your username</source>
+-        <translation type="unfinished"></translation>
++        <translation>ваш логин</translation>
+     </message>
+     <message>
+         <source>Please insert your YouTube&apos;s password</source>
+-        <translation type="unfinished"></translation>
++        <translation>Пожалуйста, введите ваш пароль на YouTube</translation>
+     </message>
+     <message>
+         <source>Select a format type:
+ Fast method is recommended.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Выберите тип формата:
++Рекомендуется быстрый метод.</translation>
+     </message>
+     <message>
+         <source>Fast</source>
+-        <translation type="unfinished"></translation>
++        <translation>Быстро</translation>
+     </message>
+     <message>
+         <source>Complete</source>
+-        <translation type="unfinished"></translation>
++        <translation>Завершено</translation>
+     </message>
+     <message>
+         <source>No</source>
+-        <translation type="unfinished"></translation>
++        <translation>Нет</translation>
+     </message>
+     <message>
+         <source>Please insert the erasing speed:</source>
+-        <translation type="unfinished"></translation>
++        <translation>Пожалуйста, выберите скорость стирания:</translation>
+     </message>
+     <message>
+         <source>Unable to unmount the CD/DVD device.
+ Be sure there is no process that is locking the device.
+ Please click on Cancel button in the next dialog.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Невозможно размонтировать CD/DVD устройство.
++Убедитесь, что нет никакого процесса, который использует устройство.
++Пожалуйста, нажмите Отмена в следующем диалоговом окне.</translation>
+     </message>
+     <message>
+         <source>This utility will not do a 1:1 copy of your game! It will simply skip copyprotection errors.
+ You will need a no-cd fix cd/dvd to make the game work also known as crack.
+ Note: if the game is very old and uses a mixed data/audio file system, this utility won&apos;t work. Sorry :(</source>
+-        <translation type="unfinished"></translation>
++        <translation>Эта утилита не сделает копию игры 1:1! Она будет просто пропускать ошибки зашиты от копирования.
++Вам нужен будет no-cd для исправления CD/DVD, чтобы сделать игру рабочей, также известный как кряк.
++Внимание: если игра очень старая и использует смешанные данные/аудио в файловой системе, эта программа не будет работать. Сожалеем: (</translation>
+     </message>
+     <message>
+         <source>Please specify your CD/DVD mount point. If you aren&apos;t sure just leave default.
+ Typical mount points are:
+ /media/cdrom or /media/cdrom0 or /media/cdrom1 and follow this symbolism.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Пожалуйста, укажите точку монтирования CD/DVD. Если не уверены, оставьте по умолчанию.
++Типичные точки монтирования являются:
++/media/cdrom или /media/cdrom0 или /media/cdrom1.</translation>
+     </message>
+     <message>
+         <source>AcetoneISO</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO</translation>
+     </message>
+     <message>
+         <source>Real time updates from the net</source>
+-        <translation type="unfinished"></translation>
++        <translation>Реальное время обновления из сети</translation>
+     </message>
+     <message>
+         <source>http://www.acetoneteam.org/clients.html</source>
+-        <translation type="unfinished"></translation>
++        <translation>http://www.acetoneteam.org/clients.html</translation>
+     </message>
+     <message>
+         <source>Click to mount an image</source>
+-        <translation type="unfinished"></translation>
++        <translation>Нажать для монтирования образа</translation>
+     </message>
+     <message>
+         <source>Click a mounted image on the display to unmount it</source>
+-        <translation type="unfinished"></translation>
++        <translation>Нажать на смонтированный образ для размонтирования</translation>
+     </message>
+     <message>
+         <source>&amp;Image Conversion</source>
+-        <translation type="unfinished"></translation>
++        <translation>&amp;Преобразование образа</translation>
+     </message>
+     <message>
+         <source>&amp;Video</source>
+-        <translation type="unfinished"></translation>
++        <translation>&amp;Видео</translation>
+     </message>
+     <message>
+         <source>&amp;Audio</source>
+-        <translation type="unfinished"></translation>
++        <translation>&amp;Аудио</translation>
+     </message>
+     <message>
+         <source>Split Image in Volumes</source>
+-        <translation type="unfinished"></translation>
++        <translation>Разбить образ на тома</translation>
+     </message>
+     <message>
+         <source>search:</source>
+-        <translation type="unfinished"></translation>
++        <translation>поиск:</translation>
+     </message>
+     <message>
+         <source>type a letter/s to filter the search</source>
+-        <translation type="unfinished"></translation>
++        <translation>тип символов для фильтрации поиска</translation>
+     </message>
+     <message>
+         <source>Double click to mount. Right click for context menu</source>
+-        <translation type="unfinished"></translation>
++        <translation>Двойной шелчек для монтирования. Правая кнопка для контекстного меню</translation>
+     </message>
+     <message>
+         <source>select an image on display to delete</source>
+-        <translation type="unfinished"></translation>
++        <translation>выбрать образ для удаления</translation>
+     </message>
+     <message>
+         <source>Click to update  database&apos;s display</source>
+-        <translation type="unfinished"></translation>
++        <translation>Щелкнуть для обновления базы данных</translation>
+     </message>
+     <message>
+         <source>PornoTube Download Video</source>
+-        <translation type="unfinished"></translation>
++        <translation>Загрузить видео на PornoTube</translation>
+     </message>
+     <message>
+         <source>MetaCafe Download Video</source>
+-        <translation type="unfinished"></translation>
++        <translation>Загрузить видео на MetaCafe</translation>
+     </message>
+     <message>
+         <source>Rip CD Audio 2 MP3</source>
+-        <translation type="unfinished"></translation>
++        <translation>Скопировать аудио CD в mp3</translation>
+     </message>
+     <message>
+         <source>Convert WMA 2 MP3</source>
+-        <translation type="unfinished"></translation>
++        <translation>Преобразовать wma в mp3</translation>
+     </message>
+     <message>
+         <source>Convert WAV 2 MP3</source>
+-        <translation type="unfinished"></translation>
++        <translation>Преобразовать wav в mp3</translation>
+     </message>
+     <message>
+         <source>Extract</source>
+-        <translation type="unfinished"></translation>
++        <translation>Распаковать</translation>
+     </message>
+     <message>
+         <source>Extract a RAR password protected</source>
+-        <translation type="unfinished"></translation>
++        <translation>Распаковать rar архив с паролем</translation>
+     </message>
+     <message>
+         <source>ISO 2 CSO</source>
+-        <translation type="unfinished"></translation>
++        <translation>iso в cso</translation>
+     </message>
+     <message>
+         <source>CSO 2 ISO</source>
+-        <translation type="unfinished"></translation>
++        <translation>cso в iso</translation>
+     </message>
+     <message>
+         <source>Extract Audio from a Video file</source>
+-        <translation type="unfinished"></translation>
++        <translation>Извлечь аудио из видео файла</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Insert cd/dvd device</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Вставить cd/dvd в устройство</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Save BIN Audio file</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Сохранить bin аудио файл</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Select Image to compress</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Выбрать образа для сжатия</translation>
+     </message>
+     <message>
+         <source>Image Files (*.iso *.daa *.bin *.mdf *.ashdisc *.bwi *.b5i *.lcd *.img *.cdi *.cif *.p01 *.pdi *.nrg *.ncd *.pxi *.gi *.fcd *.vcd *.c2d *.gpg)</source>
+-        <translation type="unfinished"></translation>
++        <translation>Файлы образов (*.iso *.daa *.bin *.mdf *.ashdisc *.bwi *.b5i *.lcd *.img *.cdi *.cif *.p01 *.pdi *.nrg *.ncd *.pxi *.gi *.fcd *.vcd *.c2d *.gpg)</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Save Compressed Image</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Сохранить сжатий образ</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Select Folder where the uncompressed Image will be saved</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Выбрать папку, куда будет сохранен распакованный образ</translation>
+     </message>
+     <message>
+         <source>Open RAR password protected</source>
+-        <translation type="unfinished"></translation>
++        <translation>Открыть защищенный паролем rar</translation>
+     </message>
+     <message>
+         <source>RAR File (*.rar *.rev *.r00)</source>
+-        <translation type="unfinished"></translation>
++        <translation>RAR файл (*.rar *.rev *.r00)</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Insert password</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Ввести пароль</translation>
+     </message>
+     <message>
+         <source>Please insert the password of the RAR archive</source>
+-        <translation type="unfinished"></translation>
++        <translation>Пожалуйста, введите пароль для rar архива</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Select Folder where the uncompressed RAR will be extracted</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Выбрать папку, куда будет распакован rar архив</translation>
+     </message>
+     <message>
+         <source>no unrar-nonfree found in /usr/bin. Please install unrar-nonfree package.</source>
+-        <translation type="unfinished"></translation>
++        <translation>не найден unrar не свободный в /usr/bin. Пожалуйста, установите unrar не свободный.</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Save ISO file</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Сохранить iso файл</translation>
+     </message>
+     <message>
+         <source>It is highly recommended to use &quot;Extract to folder&quot; feature.
+ This is because the converted ISO image is not a true ISO-9660 filesystem and requires to be mounted from terminal. A loaded hfsplus module is also needed.
+ Extracting the image contents to a folder is way easier and faster, and if you need you can always convert the folder to ISO in a second moment with AcetoneISO!
+ Choose what to do:  </source>
+-        <translation type="unfinished"></translation>
++        <translation>Настоятельно рекомендуется использовать функцию &quot;Извлечь в папку&quot;.
++Это потому, что преобразуемый ISO образ не является ISO-9660 и требует монтирования из терминала. Загрузка модуля hfsplus также необходима.
++Извлечение содержимого образа в папку проще и быстрее, а если вам будет нужно, вы всегда сможете конвертировать папку в ISO с помощью AcetoneISO!
++Выбирайте, что нужно сделать:  </translation>
+     </message>
+     <message>
+         <source> Extract to folder (best solution) </source>
+-        <translation type="unfinished"></translation>
++        <translation>Извлечь в папку (лучшее решение) </translation>
+     </message>
+     <message>
+         <source> Convert to ISO (worst solution) </source>
+-        <translation type="unfinished"></translation>
++        <translation>Преобразовать в ISO (худшее решение)</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Select where to extract image</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Выбрать куда распоковать образ</translation>
+     </message>
+     <message>
+         <source>Do you want to download Poweriso?
+ If you click yes you accept PowerISO&apos;s Freeware(proprietary but gratis) License.
+ Remember: if you are running a 64-bit OS, you need ia32-libs package installed and maybe others.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Вы хотите скачать PowerISO?
++Если нажать Да, вы принимаете Freeware лицензию на PowerISO.
++Помните: если вы используете 64-разрядную ОС, вам нужны установленные 32  библиотеки и возможно другие.</translation>
+     </message>
+     <message>
+         <source>to donate go here: http://www.acetoneteam.org/</source>
+-        <translation type="unfinished"></translation>
++        <translation>пожертвовать можно здесь: http://www.acetoneteam.org/</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Select Image to encrypt</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Выбрать образ для шифрования</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Select Image to decrypt</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Выбрать образа для расшифровки</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Select Folder to be Converted</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Выбрать папку для преобразования</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Save ISO</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Сохранить iso</translation>
+     </message>
+     <message>
+         <source>This tool doesn&apos;t do anything special.
+@@ -1693,49 +1899,56 @@
+ TRACK 01 MODE1/2352
+ INDEX 01 00:00:00
+ note: it doesn&apos;t make sense to use this feature with multisector images.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Этот инструмент не делает ничего особенного.
++Он только создаст файл, содержащий строки вашего выбора BIN/IMG:
++Файл + $ файл_образа + BINARY
++TRACK 01 MODE1/2352
++INDEX 01 00:00:00
++Обратите внимание: Не имеет смысла использовать эту возможность с мультисекторным образом.</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Select *bin or *img</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Выбрать *bin или *img</translation>
+     </message>
+     <message>
+         <source>NOTE: If you want to mount an image in a root folder like /media/cdrom, please launch AcetoneISO as root user. </source>
+-        <translation type="unfinished"></translation>
++        <translation>Отметьте: Если Вы хотите смонтировать образ в /media/cdrom, пожалуйста, запустите AcetoneISO от пользователя root.</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Select where to mount image</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Выбрать откуда монтировать образов</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Select folder to unmount</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Выбрать папку для размонтирования</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Inser cd/dvd device</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Вставить cd/dvd в устройство</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Byte Size</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Размер части</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Select Image</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Выбрать образ</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Save Md5 text file</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Сохранить текстовый файл md5</translation>
+     </message>
+     <message>
+         <source>Operation succesfully finished!
+ Find the file in </source>
+-        <translation type="unfinished"></translation>
++        <translation>Операция успешно завершена!
++Найти файл в</translation>
+     </message>
+     <message>
+         <source>An error occurred while unmounting.
+ The image has been unmounted but it is highly recommended to close and reopen AcetoneISO to mount a new image.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Произошла ошибка при размонтирования.
++Образ был отмонтирован, но рекомендуем закрыть и снова открыть AcetoneISO для монтирования нового образа.</translation>
+     </message>
+     <message>
+         <source>Error, could not mount image.
+@@ -1744,462 +1957,497 @@
+ Try converting the image to ISO or extract the content to a folder from the upper menu &quot;Image Conversion.&quot;
+ NOTE: it is NOT possible to mount multi-sector images.
+ For more information, please visit official website: http://www.acetoneteam.org</source>
+-        <translation type="unfinished"></translation>
++        <translation>Ошибка, невозможно смонтировать образ.
++
++Решение:
++Попробуйте преобразовать образ в ISO или извлечь содержимое в папку из меню &quot;Преобразование образа&quot;.
++ПРИМЕЧАНИЕ: Не возможно монтировать многосекторный образ.
++Для дополнительной информации посетите веб-сайт: http://www.acetoneteam.org</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Save BIN file</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Сохранить bin файл</translation>
+     </message>
+     <message>
+         <source>Image Files (*.iso *.daa *.bin *.mdf *.ashdisc *.bwi *.b5i *.lcd *.img *.cdi *.cif *.p01 *.pdi *.nrg *.ncd *.pxi *.gi *.fcd *.vcd *.c2d *.dmg *.gpg)</source>
+-        <translation type="unfinished"></translation>
++        <translation>Файлы образов (*.iso *.daa *.bin *.mdf *.ashdisc *.bwi *.b5i *.lcd *.img *.cdi *.cif *.p01 *.pdi *.nrg *.ncd *.pxi *.gi *.fcd *.vcd *.c2d *.dmg *.gpg)</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Insert volume name</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Ввести имя тома</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Split number</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Размер раздела</translation>
+     </message>
+     <message>
+         <source>Please insert the volume number in MegaByte:</source>
+-        <translation type="unfinished"></translation>
++        <translation>Пожалуйста, введите размер тома в мегабайта:</translation>
+     </message>
+     <message>
+         <source>Select first volume part</source>
+-        <translation type="unfinished"></translation>
++        <translation>Выбрать первую часть тома</translation>
+     </message>
+     <message>
+         <source>7Z 001 (*.001)</source>
+-        <translation type="unfinished"></translation>
++        <translation>7Z 001 (*.001)</translation>
+     </message>
+     <message>
+         <source>to be done</source>
+-        <translation type="unfinished"></translation>
++        <translation>нужно сделать</translation>
+     </message>
+     <message>
+         <source>Video Files (*.avi *.mpg *.mpeg *.mov *.wmv *.flv *.asf *.rm )</source>
+-        <translation type="unfinished"></translation>
++        <translation>Видео файлы (*.avi *.mpg *.mpeg *.mov *.wmv *.flv *.asf *.rm )</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Save Video file</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Сохранить видео файл</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Fixed Quant</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Fixed Quant</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Bitrate</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Битрейт</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::YouTube</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::YouTube</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::MetaCafe</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::MetaCafe</translation>
+     </message>
+     <message>
+         <source>Insert MetaCafe&apos;s URL:
+ </source>
+-        <translation type="unfinished"></translation>
++        <translation>Ввести URL Metacafe:
++</translation>
+     </message>
+     <message>
+         <source>We highly recommend to NOT erase a DVD.
+ AcetoneISO can simply overwrite existing data so there is no need to erase it.
+ Also remember that erasing a lot of times a dvd will damage the media.
+ Do You want to continue anyways?</source>
+-        <translation type="unfinished"></translation>
++        <translation>Мы рекомендуем не стерать DVD.
++AcetoneISO можете просто перезаписать существующие данные, поэтому нет необходимости его стерать.
++Также помните, что многоразовое стирание повредит DVD.
++Вы все еще хотите продолжить?</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Erase Speed</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Скорость стерания</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Select WMA Audio File</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Выбрать аудио файл wma</translation>
+     </message>
+     <message>
+         <source>Audio WMA (*.wma)</source>
+-        <translation type="unfinished"></translation>
++        <translation>Аудио wma  (*.wma)</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Save MP3</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Сохранить mp3</translation>
+     </message>
+     <message>
+         <source>Audio MP3 (*.mp3)</source>
+-        <translation type="unfinished"></translation>
++        <translation>Аудио mp3 (*.mp3)</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Select where to Save ripped CD-Audio</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Выбрать путь для сохранения сжатого аудио CD</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Select Video File</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Выбрать видео файл</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Save WAV</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Сохранить wav</translation>
+     </message>
+     <message>
+         <source>Audio WAV (*.wav)</source>
+-        <translation type="unfinished"></translation>
++        <translation>Аудио wav (*.wav)</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Select Wav File</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Выбрать wav файл</translation>
+     </message>
+     <message>
+         <source>WAV (*.wav)</source>
+-        <translation type="unfinished"></translation>
++        <translation>WAV (*.wav)</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Insert cd/dvd mount point</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Вставить cd/dvd в точку монтирования</translation>
+     </message>
+     <message>
+         <source>delete</source>
+-        <translation type="unfinished"></translation>
++        <translation>удалить</translation>
+     </message>
+     <message>
+         <source>extract</source>
+-        <translation type="unfinished"></translation>
++        <translation>распаковать</translation>
+     </message>
+     <message>
+         <source>Please specify your CD/DVD device. If you aren&apos;t sure just leave default.
+ Typical devices are:
+ /dev/cdrom or /dev/cdrom0 or /dev/cdrom1 or /dev/dvd and follow this symbolism.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Пожалуйста, сконфигурируйте устройстро CD/DVD. Если не уверены, оставьте по умолчанию.
++Типичными устройствами являются:
++/media/cdrom или /media/cdrom0 или /media/cdrom1.</translation>
+     </message>
+     <message>
+         <source>Note:
+ ISO-9660 filesystem does not support multisector images, this means you will loose all sectors above first sector. Generally speaking, the first sector holds data file.
+ If it&apos;s a video game image in MDF/IMG/CCD format, you will probably loose sectors that hold copyprotection files.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Примечание:
++ISO-9660, не поддерживает мультисекторные образы, это значит, что вы потеряете все сектора выше первого. Вообще говоря, первый сектор содержит данные файла.
++Если это образ с видео игрой формата MDF/IMG/CCD, вероятно свободные сектора содержат файлы защиты от копирования.</translation>
+     </message>
+     <message>
+         <source>&amp;Archive Manager</source>
+-        <translation type="unfinished"></translation>
++        <translation>&amp;Менеджер архивов</translation>
+     </message>
+     <message>
+         <source>Mount Images</source>
+-        <translation type="unfinished"></translation>
++        <translation>Монтировать образ</translation>
+     </message>
+     <message>
+         <source>Reached maximum allowed drives to mount.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Достигнуты максимально разрешенные для монтирования диски.</translation>
+     </message>
+     <message>
+         <source>Unmount Image</source>
+-        <translation type="unfinished"></translation>
++        <translation>Размонтировать образ</translation>
+     </message>
+     <message>
+         <source>Video Files (*.avi *.mpg *.mpeg *.mov *.wmv *.flv *.asf *.rm *.mp4)</source>
+-        <translation type="unfinished"></translation>
++        <translation>Видео файлы (*.avi *.mpg *.mpeg *.mov *.wmv *.flv *.asf *.rm *.mp4)</translation>
+     </message>
+     <message>
+         <source>Video (*.mp4)</source>
+-        <translation type="unfinished"></translation>
++        <translation>Видео (*.mp4)</translation>
+     </message>
+     <message utf8="true">
+         <source>Convert video for PSP™</source>
+-        <translation type="unfinished"></translation>
++        <translation>Преобразовать видео для PSP™</translation>
+     </message>
+     <message>
+         <source>You decided to unmount:
+ </source>
+-        <translation type="unfinished"></translation>
++        <translation>Вы решили размонтировать:
++</translation>
+     </message>
+     <message>
+         <source>
+ Are you sure?</source>
+-        <translation type="unfinished"></translation>
++        <translation>
++Вы уверены?</translation>
+     </message>
+     <message>
+         <source>Refresh</source>
+-        <translation type="unfinished"></translation>
++        <translation>Обновить</translation>
+     </message>
+     <message>
+         <source>Rip CD-Audio to WAV</source>
+-        <translation type="unfinished"></translation>
++        <translation>Скопировать аудио CD в wav</translation>
+     </message>
+     <message>
+         <source>This is the first time you launch AcetoneISO software.
+ In the next dialog you can set your default file manager, set database and some other things.
+ Happy AcetoneISO usage from the team:)</source>
+-        <translation type="unfinished"></translation>
++        <translation>Это первый запуск программного обеспечения AcetoneISO.
++В следующем диалоговом окне вы можете настроить файловый менеджер, установить базу данных и другие вещи.
++Успехов в использовании AcetoneISO:)</translation>
+     </message>
+     <message>
+         <source>AcetoneISO I love You!</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO Я люблю Вас!</translation>
+     </message>
+     <message>
+         <source> doesn&apos;t exist.
+ I&apos;ll remove it from database display.</source>
+-        <translation type="unfinished"></translation>
++        <translation>не существует.
++Я удалю это из базы данных.</translation>
+     </message>
+     <message>
+         <source>The History display is already empty!</source>
+-        <translation type="unfinished"></translation>
++        <translation>История уже пуста!</translation>
+     </message>
+     <message>
+         <source>You are about to clear the History display.
+ This won&apos;t delete the images from hard disk.
+ Clear History?</source>
+-        <translation type="unfinished"></translation>
++        <translation>Вы собираетесь очистить историю.
++Это не удалит образы с жесткого диска.
++Очистить историю?</translation>
+     </message>
+     <message>
+         <source>All images that don&apos;t exist have been removed from History</source>
+-        <translation type="unfinished"></translation>
++        <translation>Все образы, которые не существуют, были удалены из истории</translation>
+     </message>
+     <message>
+         <source>History:</source>
+-        <translation type="unfinished"></translation>
++        <translation>История:</translation>
+     </message>
+     <message>
+         <source>Remove non-existant images from History</source>
+-        <translation type="unfinished"></translation>
++        <translation>Удалить несуществующие образы из истории</translation>
+     </message>
+     <message>
+         <source>Clear History Display</source>
+-        <translation type="unfinished"></translation>
++        <translation>Очистить историю</translation>
+     </message>
+     <message>
+         <source>&amp;Restore</source>
+-        <translation type="unfinished"></translation>
++        <translation>&amp;Восстановить</translation>
+     </message>
+     <message>
+         <source>&amp;Quit</source>
+-        <translation type="unfinished"></translation>
++        <translation>&amp;Выход</translation>
+     </message>
+     <message>
+         <source>About AcetoneISO</source>
+-        <translation type="unfinished"></translation>
++        <translation>О программе AcetoneISO</translation>
+     </message>
+     <message>
+         <source>Mount Image</source>
+-        <translation type="unfinished"></translation>
++        <translation>Монтировать образ</translation>
+     </message>
+     <message>
+         <source>Quit</source>
+-        <translation type="unfinished"></translation>
++        <translation>Выход</translation>
+     </message>
+     <message>
+         <source>Do the action specified in the combobox</source>
+-        <translation type="unfinished"></translation>
++        <translation>Сделайте действие, указанное в поле</translation>
+     </message>
+     <message>
+         <source>Database set to:  (flag recursive:ON)</source>
+-        <translation type="unfinished"></translation>
++        <translation>База данных: (рекурсивно: Да)</translation>
+     </message>
+     <message>
+         <source>Database set to:  (flag recursive:OFF)</source>
+-        <translation type="unfinished"></translation>
++        <translation>База данных: (рекурсивно: Нет)</translation>
+     </message>
+     <message>
+         <source>Database set to:</source>
+-        <translation type="unfinished"></translation>
++        <translation>Установки базы данных:</translation>
+     </message>
+     <message>
+         <source>All images in History fisically exist!</source>
+-        <translation type="unfinished"></translation>
++        <translation>Все образы истории fisically существует!</translation>
+     </message>
+     <message>
+         <source> doesn&apos;t exist.
+ I&apos;ll remove it from history display.</source>
+-        <translation type="unfinished"></translation>
++        <translation>не существует.
++Я удалю это из истории.</translation>
+     </message>
+     <message>
+         <source>
+ This will remove it from history and fisically delete it.</source>
+-        <translation type="unfinished"></translation>
++        <translation>
++Это будет удалено из истории и fisically.</translation>
+     </message>
+     <message>
+         <source>background-color: rgb(250, 248, 255);
+ selection-background-color: rgb(248, 146, 255);
+ selection-color: rgb(82, 1, 93);</source>
+-        <translation type="unfinished"></translation>
++        <translation>цвет фона: rgb(250, 248, 255);
++выбранный цвет фона: rgb(248, 146, 255);
++выбранный цвет: rgb(82, 1, 93);</translation>
+     </message>
+     <message>
+         <source>background-color: rgb(244, 251, 255);
+ selection-background-color: rgb(121, 123, 255);
+ selection-color: rgb(1, 10, 134);</source>
+-        <translation type="unfinished"></translation>
++        <translation>цвет фона: rgb(244, 251, 255);
++выбранный цвет фона: rgb(121, 123, 255);
++выбранный цвет: rgb(1, 10, 134);</translation>
+     </message>
+     <message>
+         <source>background-color: rgb(244, 251, 255);
+ selection-color: rgb(197, 24, 212);</source>
+-        <translation type="unfinished"></translation>
++        <translation>цвет фона: rgb(244, 251, 255);
++выбранный цвет: rgb(197, 24, 212);</translation>
+     </message>
+     <message>
+         <source>background-color: rgb(246, 255, 248);
+ selection-color: rgb(19, 89, 0);
+ selection-background-color: rgb(147, 255, 151);</source>
+-        <translation type="unfinished"></translation>
++        <translation>цвет фона: rgb(246, 255, 248);
++выбранный цвет: rgb(19, 89, 0);
++выбранный цвет фона: rgb(147, 255, 151);</translation>
+     </message>
+     <message>
+         <source>open image in file manager</source>
+-        <translation type="unfinished"></translation>
++        <translation>открыть образ в файловом менеджере</translation>
+     </message>
+     <message>
+         <source>mount </source>
+-        <translation type="unfinished"></translation>
++        <translation>монтировать</translation>
+     </message>
+     <message>
+         <source>delete </source>
+-        <translation type="unfinished"></translation>
++        <translation>удалить</translation>
+     </message>
+     <message>
+         <source>extract </source>
+-        <translation type="unfinished"></translation>
++        <translation>распаковать</translation>
+     </message>
+     <message>
+         <source>open </source>
+-        <translation type="unfinished"></translation>
++        <translation>открыть</translation>
+     </message>
+     <message>
+         <source> in file manager</source>
+-        <translation type="unfinished"></translation>
++        <translation>в файловом менеджере</translation>
+     </message>
+     <message>
+         <source>unmount </source>
+-        <translation type="unfinished"></translation>
++        <translation>размонтировать</translation>
+     </message>
+     <message>
+         <source>Double click an image to open in file manager.
+ Right click for Context Menu.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Двойной шелчек для открытия образа в файловом менеджере. Правая кнопка для контекстного меню.</translation>
+     </message>
+     <message>
+         <source>Unable to find</source>
+-        <translation type="unfinished"></translation>
++        <translation>Не удается найти</translation>
+     </message>
+     <message>
+         <source>in /usr/bin.
+ Please install it and be sure it&apos;s linked to /usr/bin folder.</source>
+-        <translation type="unfinished"></translation>
++        <translation>в /usr/bin.
++Пожалуйста, установите его и убедитесь, что он в /usr/bin.</translation>
+     </message>
+     <message>
+         <source>Process Progress:</source>
+-        <translation type="unfinished"></translation>
++        <translation>Процесс выполнения:</translation>
+     </message>
+     <message>
+         <source>Hides the Process Display</source>
+-        <translation type="unfinished"></translation>
++        <translation>Скрыть отображение процесса</translation>
+     </message>
+     <message>
+         <source>Hide Process display</source>
+-        <translation type="unfinished"></translation>
++        <translation>Скрыть отображение процесса</translation>
+     </message>
+     <message>
+         <source>This display shows you the current progress of the process in action</source>
+-        <translation type="unfinished"></translation>
++        <translation>Этот дисплей показывает текущее состояние процесса в действии</translation>
+     </message>
+     <message>
+         <source>Make a small donation</source>
+-        <translation type="unfinished"></translation>
++        <translation>Сделать небольшое пожертвование</translation>
+     </message>
+     <message>
+         <source>Image Files (*.daa *.bin *.mdf *.ashdisc *.bwi *.b5i *.lcd *.img *.cdi *.cif *.p01 *.pdi *.nrg *.ncd *.pxi *.gi *.fcd *.vcd *.c2d *.cue)</source>
+-        <translation type="unfinished"></translation>
++        <translation>Файлы образов (*.daa *.bin *.mdf *.ashdisc *.bwi *.b5i *.lcd *.img *.cdi *.cif *.p01 *.pdi *.nrg *.ncd *.pxi *.gi *.fcd *.vcd *.c2d *.cue)</translation>
+     </message>
+     <message>
+         <source>Image Files (*.iso *.daa *.bin *.mdf *.ashdisc *.bwi *.b5i *.lcd *.img *.cdi *.cif *.p01 *.pdi *.nrg *.ncd *.pxi *.gi *.fcd *.vcd *.c2d *.dmg *.cue)</source>
+-        <translation type="unfinished"></translation>
++        <translation>Файлы образов (*.iso *.daa *.bin *.mdf *.ashdisc *.bwi *.b5i *.lcd *.img *.cdi *.cif *.p01 *.pdi *.nrg *.ncd *.pxi *.gi *.fcd *.vcd *.c2d *.dmg *.cue)</translation>
+     </message>
+     <message>
+         <source>background-color: rgb(255, 255, 238);
+ selection-background-color: rgb(85, 0, 255);</source>
+-        <translation type="unfinished"></translation>
++        <translation>цвет фона: rgb(255, 255, 238);
++выбранный цвет фона: rgb(85, 0, 255);</translation>
+     </message>
+     <message>
+         <source>Choose if you want the audio to be in mp3 format or if
+ it should be the same of the dvd (for example dolby 5.1)</source>
+-        <translation type="unfinished"></translation>
++        <translation>Выберите, что вы хотите, чтобы аудио было в формате mp3 или
++аудио должно быть такое же как на dvd (например формат dolby-5.1)</translation>
+     </message>
+     <message>
+         <source>Mp3</source>
+-        <translation type="unfinished"></translation>
++        <translation>mp3</translation>
+     </message>
+     <message>
+         <source>Original Audio</source>
+-        <translation type="unfinished"></translation>
++        <translation>Исходное аудио</translation>
+     </message>
+     <message>
+         <source>Burn CD/DVD</source>
+-        <translation type="unfinished"></translation>
++        <translation>Записать CD/DVD</translation>
+     </message>
+     <message>
+         <source>Updates</source>
+-        <translation type="unfinished"></translation>
++        <translation>Обновление</translation>
+     </message>
+     <message>
+         <source>Unable to find wodim in /usr/bin.
+ Please install wodim package.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Не найден wodim в/usr/bin.
++Пожалуйста, установите wodim.</translation>
+     </message>
+     <message>
+         <source>Erase CD-RW</source>
+-        <translation type="unfinished"></translation>
++        <translation>Стереть CD-RW</translation>
+     </message>
+     <message utf8="true">
+         <source>Erase DVD±RW</source>
+-        <translation type="unfinished"></translation>
++        <translation>Стереть DVD ± RW</translation>
+     </message>
+     <message>
+         <source>Unable to find dvd+rw-format in /usr/bin.
+ Please install dvd+rw-tools package.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Не найден формат dvd+rw в /usr/bin.
++Пожалуйста, установите утилиту dvd+rw.</translation>
+     </message>
+     <message>
+         <source>Video (*.avi *.mpg *.mpeg *.wmv *.flv *.mov *.asf *.rm *.mp4)</source>
+-        <translation type="unfinished"></translation>
++        <translation>Видео (*.avi *.mpg *.mpeg *.wmv *.flv *.mov *.asf *.rm *.mp4)</translation>
+     </message>
+     <message>
+         <source>Calculate Md5-Sum</source>
+-        <translation type="unfinished"></translation>
++        <translation>Вычислить сумму md5</translation>
+     </message>
+     <message>
+         <source>Calculate Sha-Sum</source>
+-        <translation type="unfinished"></translation>
++        <translation>Вычислить сумму sha</translation>
+     </message>
+     <message>
+         <source>Sha1</source>
+-        <translation type="unfinished"></translation>
++        <translation>Sha1</translation>
+     </message>
+     <message>
+         <source>Sha256</source>
+-        <translation type="unfinished"></translation>
++        <translation>Sha256</translation>
+     </message>
+     <message>
+         <source>Image Files (*.iso *.bin *.mdf *.nrg *.img)</source>
+-        <translation type="unfinished"></translation>
++        <translation>Файлы образов (*.iso *.bin *.mdf *.nrg *.img)</translation>
+     </message>
+     <message>
+         <source>Sha384</source>
+-        <translation type="unfinished"></translation>
++        <translation>Sha384</translation>
+     </message>
+     <message utf8="true">
+         <source>Erase CD-RW or DVD±RW :</source>
+-        <translation type="unfinished"></translation>
++        <translation>Стереть CD-RW или DVD±RW :</translation>
+     </message>
+     <message>
+         <source>Select where to Save the Youtube Video</source>
+-        <translation type="unfinished"></translation>
++        <translation>Выбтать путь сохранения видео Youtube</translation>
+     </message>
+     <message utf8="true">
+         <source>Burn ISO image to DVD±R/RW</source>
+-        <translation type="unfinished"></translation>
++        <translation>Записать iso образ на DVD±R/RW</translation>
+     </message>
+     <message>
+         <source>Unable to find growisofs in /usr/bin.
+ Please install growisofs package.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Не найден growisofs в /usr/bin.
++Пожалуйста, установите growisofs.</translation>
+     </message>
+     <message>
+         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+@@ -2207,35 +2455,39 @@
+ p, li { white-space: pre-wrap; }
+ &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+ &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;DejaVu Sans&apos;;&quot;&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+-        <translation type="unfinished"></translation>
++        <translation></translation>
+     </message>
+     <message>
+         <source>This Image appears to have an UDF filesystem.
+ To correctly mount this image, open a terminal as root user and type:</source>
+-        <translation type="unfinished"></translation>
++        <translation>Это образ похоже, файловой системы UDF.
++Чтобы правильно смонтировать образ, откройте терминал от root и наберите:</translation>
+     </message>
+     <message>
+         <source>Unable to download youtube-dl.
+ Please try again and be sure your internet connection is alive.
+ If the problem persists please contact us at acetoneiso@gmail.com .</source>
+-        <translation type="unfinished"></translation>
++        <translation>Не удается загрузить youtube-dl.
++Пожалуйста, попробуйте еще раз и убедитесь, что ваше интернет соединение живо.
++Если проблема не устраняется, пожалуйста свяжитесь с нами по acetoneiso@gmail.com.</translation>
+     </message>
+     <message>
+         <source>Delete</source>
+-        <translation type="unfinished"></translation>
++        <translation>Удалить</translation>
+     </message>
+     <message utf8="true">
+         <source>Burn Image ISO/CUE/TOC to CD-R/RW or DVD±R/RW :</source>
+-        <translation type="unfinished"></translation>
++        <translation>Записать образ ISO/CUE/TOC на CD-R/RW или DVD±R/RW :</translation>
+     </message>
+     <message>
+         <source>Please note this utility will generate a TOC/BIN image which could not be mounted or read in any way.
+ However You can burn it later with AcetoneISO burning tools!</source>
+-        <translation type="unfinished"></translation>
++        <translation>Обратите внимание, эта утилита генерирует TOC/BIN образ, который не может быть смонтирован или прочитан везде.
++Однако Вы сможете записать его позже с помощью AcetoneISO!</translation>
+     </message>
+     <message>
+         <source>Burn ISO/TOC/CUE to CD-R/RW</source>
+-        <translation type="unfinished"></translation>
++        <translation>Записать ISO/TOC/CUE на CD-R/RW</translation>
+     </message>
+ </context>
+ <context>
+@@ -2243,318 +2495,331 @@
+     <message>
+         <source>No CD/DVD device found.
+ If you think this is a bug please report it.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Устройство CD/DVD не найдено.
++Если Вы думаете, что это ошибка, пожалуйста, сообщите об этом.</translation>
+     </message>
+     <message>
+         <source>No CD/DVD device found</source>
+-        <translation type="unfinished"></translation>
++        <translation>Устройство CD/DVD не найдено</translation>
+     </message>
+     <message>
+         <source>Process Succesfully Finished!</source>
+-        <translation type="unfinished">Процесс удачно завершен!</translation>
++        <translation>Процесс успешно завершен!</translation>
+     </message>
+     <message>
+         <source>Device:</source>
+-        <translation type="unfinished"></translation>
++        <translation>Устройство:</translation>
+     </message>
+     <message>
+         <source>This combobox shows all the cdrom CD-RW capable devices found in your system</source>
+-        <translation type="unfinished"></translation>
++        <translation>Это поле отображает все устройства CD-RW найденные в вашей системе</translation>
+     </message>
+     <message>
+         <source>Speed:</source>
+-        <translation type="unfinished"></translation>
++        <translation>Скорость:</translation>
+     </message>
+     <message>
+         <source>Start</source>
+-        <translation type="unfinished"></translation>
++        <translation>Старт</translation>
+     </message>
+     <message>
+         <source>This will eject your disc when the blank process ends</source>
+-        <translation type="unfinished"></translation>
++        <translation>Это позволит извлечь диск, когда процесс будет завершен</translation>
+     </message>
+     <message>
+         <source>Eject the disk after doing the work</source>
+-        <translation type="unfinished"></translation>
++        <translation>Извлечь диск после завершения</translation>
+     </message>
+     <message>
+         <source>Play sound notice at end</source>
+-        <translation type="unfinished"></translation>
++        <translation>Проиграть в конце звук уведомления</translation>
+     </message>
+     <message>
+         <source>Progress:</source>
+-        <translation type="unfinished"></translation>
++        <translation>Выполнение:</translation>
+     </message>
+     <message>
+         <source>No CD/DVD device found capable of writing to CD-R/RW discs.
+ If you think this is a bug please report it.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Обнаруженное CD/DVD устройство не способно записывать диски CD-R/RW.
++Если вы считаете, что это ошибка, пожалуйста сообщите об этом.</translation>
+     </message>
+     <message>
+         <source>Insert a CD-R/RW disc.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Вставить диск CD-R/RW.</translation>
+     </message>
+     <message>
+         <source>The disc isn&apos;t a CD-R/RW. Please insert a CD-R/RW disc.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Диск не CD-R/RW. Пожалуйста, вставьте диск CD-R/RW.</translation>
+     </message>
+     <message>
+         <source>You inserted a CD-RW disc, however your CD/DVD device is uncapable of writing to CD-RW discs.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Вы вставили диск CD-RW, однако ваше устройство CD/DVD не способно записывать диски CD-RW.</translation>
+     </message>
+     <message>
+         <source>The CD-R isn&apos;t empty. Please insert an empty CD-R/RW disc.</source>
+-        <translation type="unfinished"></translation>
++        <translation>CD-R не пустой. Пожалуйста, вставьте чистый диск CD-R/RW.</translation>
+     </message>
+     <message>
+         <source>The CD-RW isn&apos;t empty.
+ Please insert an empty CD-R/RW disc or blank the CD-RW with the appropriate AcetoneISO&apos;s blanking tool.</source>
+-        <translation type="unfinished"></translation>
++        <translation>CD-RW не пустой.
++Пожалуйста, вставьте чистый диск CD-R/RW или очистите CD-RW выбрав соответствующий инструмент AcetoneISO.</translation>
+     </message>
+     <message>
+         <source>succesfully found in device.</source>
+-        <translation type="unfinished"></translation>
++        <translation>успешно найден на устройстве.</translation>
+     </message>
+     <message>
+         <source>
+ Are you sure?</source>
+-        <translation type="unfinished"></translation>
++        <translation>
++Вы уверены?</translation>
+     </message>
+     <message>
+         <source>Choose writing speed. When putting high values, be sure to have a good optical medium quality.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Выберите скорость записи. При установке высоких значений, убедитесь в хорошем состоянии устройства.</translation>
+     </message>
+     <message>
+         <source>Click here to browse and choose what image to burn to your optical medium</source>
+-        <translation type="unfinished"></translation>
++        <translation>Щелкните здесь, чтобы просмотреть и выбрать образ для записи</translation>
+     </message>
+     <message>
+         <source>Start burning your image.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Старт записи образа.</translation>
+     </message>
+     <message>
+         <source>Does a burning simulation. This means it will not do a real burn and write data on your CD-R/RW disc.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Выполнить симуляцию записи.Это означает, не будет сделана реальная запись данных на диск CD-R/RW.</translation>
+     </message>
+     <message>
+         <source>Simulation</source>
+-        <translation type="unfinished"></translation>
++        <translation>Симуляция</translation>
+     </message>
+     <message>
+         <source>Select Image to Burn</source>
+-        <translation type="unfinished"></translation>
++        <translation>Выбрать образ для записи</translation>
+     </message>
+     <message>
+         <source> seconds</source>
+-        <translation type="unfinished"></translation>
++        <translation>секунд</translation>
+     </message>
+     <message>
+         <source> minutes</source>
+-        <translation type="unfinished"></translation>
++        <translation>минут</translation>
+     </message>
+     <message>
+         <source>Estimated time to burn </source>
+-        <translation type="unfinished"></translation>
++        <translation>Расчетное время записи </translation>
+     </message>
+     <message>
+         <source>Select ISO/CUE/TOC image to burn to CD-R/RW :</source>
+-        <translation type="unfinished"></translation>
++        <translation>Выбрать образ ISO/CUE/TOC для записи на CD-R/RW :</translation>
+     </message>
+     <message>
+         <source>This display shows the progress of the burning process.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Этот дисплей показывает ход процесса записи.</translation>
+     </message>
+     <message>
+         <source>AcetoneISO is burning your image to the</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO записывает ваш образ</translation>
+     </message>
+     <message>
+         <source>You decided to burn the image on the</source>
+-        <translation type="unfinished"></translation>
++        <translation>Вы решили записать образ на</translation>
+     </message>
+     <message>
+         <source>Burn Image to CD-R/RW</source>
+-        <translation type="unfinished"></translation>
++        <translation>Записать образ на CD-R/RW</translation>
+     </message>
+     <message>
+         <source>The Image you selected is too big to fit into a CD-R/RW.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Выбранный образ слишком велик для записи на CD-R/RW.</translation>
+     </message>
+     <message>
+         <source>Image Files ISO/CUE/TOC (*.iso *.cue *.toc)</source>
+-        <translation type="unfinished"></translation>
++        <translation>Файлы образов ISO/CUE/TOC (*.iso *.cue *.toc)</translation>
+     </message>
+     <message>
+         <source>The Image you selected is unsupported from AcetoneISO.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Выбранный образ не поддерживается в AcetoneISO.</translation>
+     </message>
+     <message>
+         <source>The Image you selected does not exist.
+ If trying to burn a CUE/TOC image, be sure the image file is in the exact folder where the CUE/TOC file is.
+ Be also sure they have same name except the CUE/TOC file ending with .toc extension.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Выбранный вами образ не существует.
++Если вы пытаетесь записать образ CUE/TOC, убедитесь, что файл образа в папке является CUE/TOC.
++Так же убедитесь, что кроме формата CUE/TOC файл заканчивается расширением .toc.</translation>
+     </message>
+     <message>
+         <source>Program cue2toc not found in /usr/bin
+ Please install cue2toc package.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Программа cue2toc не найдена в /usr/bin
++Пожалуйста, установите cue2toc.</translation>
+     </message>
+     <message>
+         <source>Unable to generate toc file from the cue file you selected.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Невозможно создать TOC файл из выбранного cue файла.</translation>
+     </message>
+ </context>
+ <context>
+     <name>burniso2dvd</name>
+     <message>
+         <source>Progress:</source>
+-        <translation type="unfinished"></translation>
++        <translation>Выполнение:</translation>
+     </message>
+     <message>
+         <source>This display shows the progress of the blanking process</source>
+-        <translation type="unfinished"></translation>
++        <translation>Этот дисплей показывает ход процесса очистки</translation>
+     </message>
+     <message>
+         <source>Play sound notice at end</source>
+-        <translation type="unfinished"></translation>
++        <translation>Проиграть в конце звук уведомления</translation>
+     </message>
+     <message>
+         <source>Device:</source>
+-        <translation type="unfinished"></translation>
++        <translation>Устройство:</translation>
+     </message>
+     <message>
+         <source>Start</source>
+-        <translation type="unfinished"></translation>
++        <translation>Старт</translation>
+     </message>
+     <message>
+         <source>No CD/DVD device found.
+ If you think this is a bug please report it.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Устройство CD/DVD не найдено.
++Если Вы думаете, что это ошибка, пожалуйста, сообщите об этом.</translation>
+     </message>
+     <message>
+         <source>No CD/DVD device found</source>
+-        <translation type="unfinished"></translation>
++        <translation>Устройство CD/DVD не найдено</translation>
+     </message>
+     <message>
+         <source>No CD/DVD device found capable of writing to DVD-RW discs.
+ If you think this is a bug please report it.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Обнаруженное CD/DVD устройство не способно записывать диски DVD-RW.
++Если вы считаете, что это ошибка, пожалуйста сообщите об этом.</translation>
+     </message>
+     <message>
+         <source>Insert a DVD</source>
+-        <translation type="unfinished"></translation>
++        <translation>Вставить DVD</translation>
+     </message>
+     <message>
+         <source>disc.</source>
+-        <translation type="unfinished"></translation>
++        <translation>диск.</translation>
+     </message>
+     <message>
+         <source>The disc isn&apos;t a DVD</source>
+-        <translation type="unfinished"></translation>
++        <translation>Диск не DVD</translation>
+     </message>
+     <message>
+         <source>Please insert a DVD</source>
+-        <translation type="unfinished"></translation>
++        <translation>Пожалуйста, вставьте DVD</translation>
+     </message>
+     <message>
+         <source>You inserted a </source>
+-        <translation type="unfinished"></translation>
++        <translation>Вставлен</translation>
+     </message>
+     <message>
+         <source>succesfully found in device.</source>
+-        <translation type="unfinished"></translation>
++        <translation>успешно найден на устройстве.</translation>
+     </message>
+     <message>
+         <source>
+ Are you sure?</source>
+-        <translation type="unfinished"></translation>
++        <translation>
++Вы уверены?</translation>
+     </message>
+     <message>
+         <source>Process Succesfully Finished!</source>
+-        <translation type="unfinished">Процесс удачно завершен!</translation>
++        <translation>Процесс удачно завершен!</translation>
+     </message>
+     <message>
+         <source> that is not Empty. Please put an empty DVD</source>
+-        <translation type="unfinished"></translation>
++        <translation> этот не чистый. Пожалуйста, поставьте чистый DVD</translation>
+     </message>
+     <message>
+         <source>Speed:</source>
+-        <translation type="unfinished"></translation>
++        <translation>Скорость:</translation>
+     </message>
+     <message>
+         <source>Choose writing speed. When putting high values, be sure to have a good optical medium quality.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Выберите скорость записи. При установке высоких значений, убедитесь в хорошем состоянии устройства.</translation>
+     </message>
+     <message>
+         <source>Click here to browse and choose what image to burn to your optical medium</source>
+-        <translation type="unfinished"></translation>
++        <translation>Щелкните здесь, чтобы просмотреть и выбрать образ для записи</translation>
+     </message>
+     <message>
+         <source>Start burning your image.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Начать запись вашего образа.</translation>
+     </message>
+     <message utf8="true">
+         <source>This combobox shows all the dvd DVD±R/RW capable devices found in your system</source>
+-        <translation type="unfinished"></translation>
++        <translation>Это поле отображает все устройства DVD±R/RW найденные в вашей системе</translation>
+     </message>
+     <message utf8="true">
+         <source>Select ISO image to burn to DVD±R/RW :</source>
+-        <translation type="unfinished"></translation>
++        <translation>Выбрать образ iso для записи на DVD±R/RW :</translation>
+     </message>
+     <message utf8="true">
+         <source>Burn ISO to DVD±R/RW</source>
+-        <translation type="unfinished"></translation>
++        <translation>Записать iso на DVD±R/RW</translation>
+     </message>
+     <message>
+         <source> disc, however your CD/DVD device is uncapable of writing to such discs.</source>
+-        <translation type="unfinished"></translation>
++        <translation> диск, однако ваше устройство CD/DVD не способно записывать такие диски.</translation>
+     </message>
+     <message>
+         <source>The Image you selected does not exist.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Выбранный образ не существует.</translation>
+     </message>
+     <message>
+         <source> seconds</source>
+-        <translation type="unfinished"></translation>
++        <translation>секунд</translation>
+     </message>
+     <message>
+         <source> minutes</source>
+-        <translation type="unfinished"></translation>
++        <translation>минут</translation>
+     </message>
+     <message>
+         <source>Estimated time to burn </source>
+-        <translation type="unfinished"></translation>
++        <translation>Предполагаемое время записи</translation>
+     </message>
+     <message>
+         <source> that is not Empty. If you continue, AcetoneISO will overwrite your disc!</source>
+-        <translation type="unfinished"></translation>
++        <translation> не пустой. Если вы продолжите, AcetoneISO перезапишет диск!</translation>
+     </message>
+     <message>
+         <source>You decided to burn the image on the</source>
+-        <translation type="unfinished"></translation>
++        <translation>Вы решили записать образ на</translation>
+     </message>
+     <message>
+         <source>.
+ The disc is NOT empty so if you continue,
+ AcetoneISO will overwrite all your data.
+ Are you sure?</source>
+-        <translation type="unfinished"></translation>
++        <translation>.
++Диск не пустой и если вы продолжите,
++AcetoneISO перезапишет все ваши данные.
++Вы уверены?</translation>
+     </message>
+     <message>
+         <source>AcetoneISO is burning your image to the</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO записывает ваш образ</translation>
+     </message>
+     <message>
+         <source>Select ISO Image to Burn</source>
+-        <translation type="unfinished"></translation>
++        <translation>Выбрать образ iso для записи</translation>
+     </message>
+     <message>
+         <source>ISO Image Files (*.iso)</source>
+-        <translation type="unfinished"></translation>
++        <translation>Файлы образов ISO (*.iso)</translation>
+     </message>
+     <message>
+         <source>The Image you selected is unsupported from AcetoneISO.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Выбранный образ не поддерживается в AcetoneISO.</translation>
+     </message>
+ </context>
+ <context>
+@@ -2562,97 +2827,100 @@
+     <message>
+         <source>No CD/DVD device found.
+ If you think this is a bug please report it.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Устройство CD/DVD не найдено.
++Если Вы думаете, что это ошибка, пожалуйста, сообщите об этом.</translation>
+     </message>
+     <message>
+         <source>No CD/DVD device found</source>
+-        <translation type="unfinished"></translation>
++        <translation>Устройство CD/DVD не найдено</translation>
+     </message>
+     <message>
+         <source>The CD-RW is getting blanked...</source>
+-        <translation type="unfinished"></translation>
++        <translation>CD-RW очищается...</translation>
+     </message>
+     <message>
+         <source>Insert a CD-RW disc.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Вставить диск CD-R/RW.</translation>
+     </message>
+     <message>
+         <source>The disc isn&apos;t a CD-RW. Please insert a CD-RW disc.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Диск не CD-R/RW. Пожалуйста, вставьте диск CD-R/RW.</translation>
+     </message>
+     <message>
+         <source>CD-RW succesfully found in device.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Диск CD-RW успешно найден на устройстве.</translation>
+     </message>
+     <message>
+         <source>You decided to blank the CD-RW.
+ Are you sure?</source>
+-        <translation type="unfinished"></translation>
++        <translation>Вы решили очистить CD-RW.
++Вы уверены?</translation>
+     </message>
+     <message>
+         <source>Process Succesfully Finished!</source>
+-        <translation type="unfinished">Процесс удачно завершен!</translation>
++        <translation>Процесс успешно завершен!</translation>
+     </message>
+     <message>
+         <source>Erase CD</source>
+-        <translation type="unfinished"></translation>
++        <translation>Стереть CD</translation>
+     </message>
+     <message>
+         <source>Device:</source>
+-        <translation type="unfinished"></translation>
++        <translation>Устройство:</translation>
+     </message>
+     <message>
+         <source>Selecting this will completely blank your CD-RW</source>
+-        <translation type="unfinished"></translation>
++        <translation>Этот выбор полностью очистит ваш CD-RW</translation>
+     </message>
+     <message>
+         <source>Blank  the entire disk</source>
+-        <translation type="unfinished"></translation>
++        <translation>Очистить весь диск</translation>
+     </message>
+     <message>
+         <source>This will not delete files but only PMA, TOC and the pregap</source>
+-        <translation type="unfinished"></translation>
++        <translation>Это не удалит файлы, а только PMA, TOC и pregap</translation>
+     </message>
+     <message>
+         <source>Minimally blank the entire disk (PMA, TOC, pregap)</source>
+-        <translation type="unfinished"></translation>
++        <translation>Быстро очистить весь диск (PMA, TOC, pregap)</translation>
+     </message>
+     <message>
+         <source>This will eject your disc when the blank process ends</source>
+-        <translation type="unfinished"></translation>
++        <translation>Это позволит извлечь диск, когда процесс будет завершен</translation>
+     </message>
+     <message>
+         <source>Eject the disk after doing the work</source>
+-        <translation type="unfinished"></translation>
++        <translation>Извлечь диск после завершения</translation>
+     </message>
+     <message>
+         <source>Progress:</source>
+-        <translation type="unfinished"></translation>
++        <translation>Выполнение:</translation>
+     </message>
+     <message>
+         <source>This display shows the progress of the blanking process</source>
+-        <translation type="unfinished"></translation>
++        <translation>Этот дисплей показывает ход процесса очистки</translation>
+     </message>
+     <message>
+         <source>Start blanking your disc</source>
+-        <translation type="unfinished"></translation>
++        <translation>Старт очистки диска</translation>
+     </message>
+     <message>
+         <source>Start</source>
+-        <translation type="unfinished"></translation>
++        <translation>Старт</translation>
+     </message>
+     <message>
+         <source>No CD/DVD device found capable of writing to CD-RW discs.
+ If you think this is a bug please report it.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Обнаруженное CD/DVD устройство не способно записывать диски CD-RW.
++Если вы считаете, что это ошибка, пожалуйста сообщите об этом.</translation>
+     </message>
+     <message>
+         <source>Play sound notice at end</source>
+-        <translation type="unfinished"></translation>
++        <translation>Проиграть в конце звук уведомления</translation>
+     </message>
+     <message>
+         <source>This combobox shows all the cdrom CD-RW capable devices found in your system</source>
+-        <translation type="unfinished"></translation>
++        <translation>Это поле отображает все устройства CD-RW найденные в вашей системе</translation>
+     </message>
+ </context>
+ <context>
+@@ -2660,124 +2928,130 @@
+     <message>
+         <source>No CD/DVD device found.
+ If you think this is a bug please report it.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Устройство CD/DVD не найдено.
++Если Вы думаете, что это ошибка, пожалуйста, сообщите об этом.</translation>
+     </message>
+     <message>
+         <source>No CD/DVD device found</source>
+-        <translation type="unfinished"></translation>
++        <translation>Устройство CD/DVD не найдено</translation>
+     </message>
+     <message>
+         <source>Process Succesfully Finished!</source>
+-        <translation type="unfinished">Процесс удачно завершен!</translation>
++        <translation>Процесс успешно завершен!</translation>
+     </message>
+     <message utf8="true">
+         <source>Erase DVD±RW</source>
+-        <translation type="unfinished"></translation>
++        <translation>Стереть DVD±RW</translation>
+     </message>
+     <message>
+         <source>Device:</source>
+-        <translation type="unfinished"></translation>
++        <translation>Устройство:</translation>
+     </message>
+     <message>
+         <source>This will eject your disc when the blank process ends</source>
+-        <translation type="unfinished"></translation>
++        <translation>Это позволит извлечь диск, когда процесс будет завершен</translation>
+     </message>
+     <message>
+         <source>Eject the disk after doing the work</source>
+-        <translation type="unfinished"></translation>
++        <translation>Извлечь диск после завершения</translation>
+     </message>
+     <message>
+         <source>Progress:</source>
+-        <translation type="unfinished"></translation>
++        <translation>Выполнение:</translation>
+     </message>
+     <message>
+         <source>This display shows the progress of the blanking process</source>
+-        <translation type="unfinished"></translation>
++        <translation>Этот дисплей показывает ход процесса очистки</translation>
+     </message>
+     <message>
+         <source>Start blanking your disc</source>
+-        <translation type="unfinished"></translation>
++        <translation>Старт очистки диска</translation>
+     </message>
+     <message>
+         <source>Start</source>
+-        <translation type="unfinished"></translation>
++        <translation>Старт</translation>
+     </message>
+     <message>
+         <source>Play sound notice at end</source>
+-        <translation type="unfinished"></translation>
++        <translation>Проиграть в конце звук уведомления</translation>
+     </message>
+     <message>
+         <source>No CD/DVD device found capable of writing to DVD-RW discs.
+ If you think this is a bug please report it.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Обнаруженное CD/DVD устройство не способно записывать диски DVD-RW.
++Если вы считаете, что это ошибка, пожалуйста сообщите об этом.</translation>
+     </message>
+     <message>
+         <source>Insert a DVD</source>
+-        <translation type="unfinished"></translation>
++        <translation>Вставьте DVD</translation>
+     </message>
+     <message>
+         <source>disc.</source>
+-        <translation type="unfinished"></translation>
++        <translation>диск.</translation>
+     </message>
+     <message>
+         <source>The disc isn&apos;t a DVD</source>
+-        <translation type="unfinished"></translation>
++        <translation>Диск не DVD</translation>
+     </message>
+     <message>
+         <source>Please insert a DVD</source>
+-        <translation type="unfinished"></translation>
++        <translation>Пожалуйста, вставьте DVD</translation>
+     </message>
+     <message>
+         <source>You inserted a DVD+RW disc, however your CD/DVD device is uncapable of writing to DVD+RW discs.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Вы вставили диск DVD+RW, однако ваше устройство CD/DVD не способно записывать диски DVD+RW.</translation>
+     </message>
+     <message>
+         <source>succesfully found in device.</source>
+-        <translation type="unfinished"></translation>
++        <translation>успешно найден на устройстве.</translation>
+     </message>
+     <message utf8="true">
+         <source>This combobox shows all the DVD±RW capable devices found in your system</source>
+-        <translation type="unfinished"></translation>
++        <translation>Это поле отображает все устройства DVD±RW найденные в вашей системе</translation>
+     </message>
+     <message>
+         <source>The</source>
+-        <translation type="unfinished"></translation>
++        <translation>этот</translation>
+     </message>
+     <message>
+         <source>is getting blanked...</source>
+-        <translation type="unfinished"></translation>
++        <translation>очищается...</translation>
+     </message>
+     <message>
+         <source>You decided to blank the</source>
+-        <translation type="unfinished"></translation>
++        <translation>Вы решили очистить</translation>
+     </message>
+     <message>
+         <source>
+ Are you sure?</source>
+-        <translation type="unfinished"></translation>
++        <translation>
++Вы уверены?</translation>
+     </message>
+     <message utf8="true">
+         <source>Selecting this will completely blank your DVD±RW. This is not recommended and may damage your media on if used several times</source>
+-        <translation type="unfinished"></translation>
++        <translation>Этот выбор полностью очистит DVD±RW. Это не рекомендуется и может повредить ваш носитель, если использовать несколько раз</translation>
+     </message>
+     <message>
+         <source>Blank  the entire disk (not recommended)</source>
+-        <translation type="unfinished"></translation>
++        <translation>Очистить весь диск (не рекомендуется)</translation>
+     </message>
+     <message>
+         <source>Quick Blank</source>
+-        <translation type="unfinished"></translation>
++        <translation>Быстрая очистка</translation>
+     </message>
+     <message>
+         <source>is already formatted.
+ There is no need to format it because you can simply overwrite the media.
+ If you really want to blank it, choose Blank the Entire disc in the below window but we highly discourage you from doing so.
+ Overwriting the</source>
+-        <translation type="unfinished"></translation>
++        <translation>уже отформатирован.
++Его не нужно форматировать, вы можете просто перезаписать диск.
++Если все же хотите очистить его, выберите &quot;Очистить весь диск&quot;, но мы просим Вас не делать так.
++Перезапись</translation>
+     </message>
+     <message>
+         <source>is the simplest and safest thing to do.</source>
+-        <translation type="unfinished"></translation>
++        <translation>является самым простым и безопасным делом.</translation>
+     </message>
+ </context>
+ <context>
+@@ -2792,11 +3066,11 @@
+     </message>
+     <message>
+         <source>AcetoneISO::Manual</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Руководство</translation>
+     </message>
+     <message>
+         <source>OK</source>
+-        <translation type="unfinished"></translation>
++        <translation>ОК</translation>
+     </message>
+ </context>
+ <context>
+@@ -2807,7 +3081,7 @@
+     </message>
+     <message>
+         <source>Iso from folder</source>
+-        <translation>Iso из папки</translation>
++        <translation>ISO из папки</translation>
+     </message>
+     <message>
+         <source>Standard Settings</source>
+@@ -2823,7 +3097,7 @@
+     </message>
+     <message>
+         <source>Media player</source>
+-        <translation>Медиа плеер</translation>
++        <translation>Медиа проигрыватель</translation>
+     </message>
+     <message>
+         <source>Kaffeine</source>
+@@ -2851,7 +3125,7 @@
+     </message>
+     <message>
+         <source>it will use Nautilus file manager</source>
+-        <translation>он будет использовать Nautilus файловый менеджер</translation>
++        <translation>он будет использовать файловый менеджер Nautilus</translation>
+     </message>
+     <message>
+         <source>Nautilus</source>
+@@ -2863,87 +3137,87 @@
+     </message>
+     <message>
+         <source>Database</source>
+-        <translation type="unfinished"></translation>
++        <translation>База данных</translation>
+     </message>
+     <message>
+         <source>Reset options to default values.</source>
+-        <translation type="unfinished"></translation>
++        <translation>Вернуть настройки к значению по-умолчанию.</translation>
+     </message>
+     <message>
+         <source>Defaults</source>
+-        <translation type="unfinished"></translation>
++        <translation>Подробно</translation>
+     </message>
+     <message>
+         <source>OK</source>
+-        <translation type="unfinished"></translation>
++        <translation>ОК</translation>
+     </message>
+     <message>
+         <source>Apply</source>
+-        <translation type="unfinished"></translation>
++        <translation>Применить</translation>
+     </message>
+     <message>
+         <source>Cancel</source>
+-        <translation type="unfinished"></translation>
++        <translation>Отмена</translation>
+     </message>
+     <message>
+         <source>Thunar</source>
+-        <translation type="unfinished"></translation>
++        <translation>Thunar</translation>
+     </message>
+     <message>
+         <source>Don&apos;t Open a file manager</source>
+-        <translation type="unfinished"></translation>
++        <translation>Не открывать файловый менеджер</translation>
+     </message>
+     <message>
+         <source>What is Database?</source>
+-        <translation type="unfinished"></translation>
++        <translation>О базе данных?</translation>
+     </message>
+     <message>
+         <source>Set database root folder:</source>
+-        <translation type="unfinished"></translation>
++        <translation>Установить корень для базы данных:</translation>
+     </message>
+     <message>
+         <source>Scan Subdirectories (read below)</source>
+-        <translation type="unfinished"></translation>
++        <translation>Сканировать подкаталоги (см. ниже)</translation>
+     </message>
+     <message>
+         <source>General Options</source>
+-        <translation type="unfinished"></translation>
++        <translation>Общие настройки</translation>
+     </message>
+     <message>
+         <source>Advanced Options</source>
+-        <translation type="unfinished"></translation>
++        <translation>Дополнительные настройки</translation>
+     </message>
+     <message>
+         <source>AcetoneISO::Options</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Настройки</translation>
+     </message>
+     <message>
+         <source>Enable Tray Icon (requires application restart)</source>
+-        <translation type="unfinished"></translation>
++        <translation>Значек в системном лотке (требуется перезапуск приложения)</translation>
+     </message>
+     <message>
+         <source>Close in Tray Icon</source>
+-        <translation type="unfinished"></translation>
++        <translation>Закрывать в системный лоток</translation>
+     </message>
+     <message>
+         <source>Automatically clean History display on restart</source>
+-        <translation type="unfinished"></translation>
++        <translation>Автоматически очищать историю при перезапуске</translation>
+     </message>
+     <message>
+         <source>Tray Icon:</source>
+-        <translation type="unfinished"></translation>
++        <translation>Иконка в системном лотке:</translation>
+     </message>
+     <message>
+         <source>History:</source>
+-        <translation type="unfinished"></translation>
++        <translation>История:</translation>
+     </message>
+     <message>
+         <source>Automatically remove non-existant images from History display on restart</source>
+-        <translation type="unfinished"></translation>
++        <translation>Удалять несуществующие образы из истории при перезапуске</translation>
+     </message>
+     <message>
+         <source>Lxde</source>
+-        <translation type="unfinished"></translation>
++        <translation>Lxde</translation>
+     </message>
+     <message>
+         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+@@ -2951,20 +3225,26 @@
+ p, li { white-space: pre-wrap; }
+ &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+ &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;;&quot;&gt;If you activate Scan Subdirectories checkbox, avoid setting database root folder directly to your ~home folder or system folders.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+-        <translation type="unfinished"></translation>
++        <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
++&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
++p, li { white-space: pre-wrap; }
++&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Sans Serif&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
++&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;DejaVu Sans&apos;;&quot;&gt;Если вы установите флажек &quot;Сканировать подкаталоги&quot;, избегайте создания папки базы данных в корневой директории, а создавайте в своей домашней директории.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+     </message>
+ </context>
+ <context>
+     <name>optionsDiag</name>
+     <message>
+         <source>AcetoneISO::Select Database Folder</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Выбор папки базы данных</translation>
+     </message>
+     <message>
+         <source>Database is a quick and easy feature for managing your images.
+ Place them all in a folder and set the Database path to it, you will see all the images in the database display.
+ You can quickly mount them by simply clicking on them or right click for more options.</source>
+-        <translation type="unfinished"></translation>
++        <translation>База данных является быстрой и простой функцией управления образами.
++Поместите их все в папку и установите путь к ней в базе данных, и вы увидите отображение всех образов базы данных.
++Вы сможете быстро смонтировать их, просто нажав на них или щелкнув правой кнопкой мыши для выбора параметров.</translation>
+     </message>
+ </context>
+ <context>
+@@ -2979,7 +3259,7 @@
+     </message>
+     <message>
+         <source>AcetoneISO::Progress</source>
+-        <translation type="unfinished"></translation>
++        <translation>AcetoneISO::Выполнение</translation>
+     </message>
+ </context>
+ </TS>
