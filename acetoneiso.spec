@@ -38,11 +38,15 @@ AcetoneISO2: The CD/DVD image manipulator for Linux, it can do the following:
 %patch1 -p0
 %patch2 -p1
 
+sed -i 's#<Phonon/#<phonon/#' erase_cd.h erase_cd.cpp erase_dvd.cpp \
+	  burn_iso_2_cd.cpp burn_iso_2_cd.h burn_iso_2_dvd.cpp
+      
 %build
 cd %{name}/
 # Update translations first after we used patch for .ts
 lrelease ./locale/*.ts
 %qmake_qt4
+sed -i 's|-I/usr/include/QtCore|-I/usr/include/qt4/QtCore -I/usr/include/qt4/KDE|' Makefile
 %make
 
 %install
