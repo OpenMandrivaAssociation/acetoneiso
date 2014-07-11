@@ -43,7 +43,7 @@ cd %{name}/
 # Update translations first after we used patch for .ts
 lrelease ./locale/*.ts
 %qmake_qt4
-sed -i 's|-I/usr/include/QtCore|-I/usr/include/qt4/QtCore -I/usr/include/qt4/KDE|' Makefile
+sed -i 's|-I/usr/include/QtCore|-I/usr/include/qt4/QtCore -I/usr/include/qt4/KDE -I/usr/lib/qt4/include/QtWebKit|' Makefile
 
 %make
 
