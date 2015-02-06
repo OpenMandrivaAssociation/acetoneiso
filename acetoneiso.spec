@@ -1,6 +1,6 @@
 Name:		acetoneiso
 Version:	2.3
-Release:	3
+Release:	4
 Summary:	CD/DVD Image Manipulator
 Group:		Archiving/Other
 License:	GPLv3
