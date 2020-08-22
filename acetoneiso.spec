@@ -14,7 +14,6 @@ Patch2:		acetoneiso-2.4-size-localized-strings.patch
 Patch3:		acetoneiso-2.4-qt5.patch
 Patch4:		acetoneiso-2.4-deb-add_manpage.patch
 Patch5:		acetoneiso-2.4-deb-remove_defunct_homepage.patch
-Patch6:		acetoneiso-cd-mimetype.patch
 BuildRequires:	qt5-devel
 BuildRequires:	phonon4qt5-devel
 BuildRequires:	pkgconfig(Qt5WebKit)
@@ -49,7 +48,6 @@ AcetoneISO2: The CD/DVD image manipulator for Linux, it can do the following:
 %patch3 -p1
 %patch4 -p1
 %patch5 -p1
-#%%patch6 -p1
       
 %build
 cd %{name}/
