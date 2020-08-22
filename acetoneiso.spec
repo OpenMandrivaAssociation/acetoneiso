@@ -17,6 +17,7 @@ Patch5:		acetoneiso-2.4-deb-remove_defunct_homepage.patch
 BuildRequires:	qt5-devel
 BuildRequires:	phonon4qt5-devel
 BuildRequires:	pkgconfig(Qt5WebKit)
+BuildRequires:	pkgconfig(Qt5WebKitWidgets)
 BuildRequires:	desktop-file-utils
 BuildRequires:	lib64qt5opengl-devel
 Requires:	p7zip
