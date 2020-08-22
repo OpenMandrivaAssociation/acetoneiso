@@ -1,4 +1,5 @@
-%define enable_debug 0
+%global enable_debug 0
+%global debug_package %{nil}
 
 Name:		acetoneiso
 Version:	2.4
