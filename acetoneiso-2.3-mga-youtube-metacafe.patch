@@ -1,0 +1,39 @@
+diff -ur acetoneiso_2.3.orig/acetoneiso/sources/utube.h acetoneiso_2.3/acetoneiso/sources/utube.h
+--- acetoneiso_2.3.orig/acetoneiso/sources/utube.h	2010-06-09 05:52:00.000000000 +0400
++++ acetoneiso_2.3/acetoneiso/sources/utube.h	2016-02-21 22:10:14.000000000 +0300
+@@ -18,7 +18,7 @@
+ QFile yutubbodl(Homeutube.path() + "/.acetoneiso/youtube-dl");
+ yutubbodl.remove();
+ //system ("rm $HOME/.acetoneiso/youtube-dl > /dev/null 2>&1");
+-if (system ("cd $HOME/.acetoneiso/;wget http://digilander.libero.it/bulletxt/youtube-dl > /dev/null 2>&1" )  ) {
++if (system ("cd $HOME/.acetoneiso/;wget https://yt-dl.org/downloads/latest/youtube-dl > /dev/null 2>&1" )  ) {
+   
+ }
+ //system ("chmod 755 $HOME/.acetoneiso/youtube-dl > /dev/null 2>&1");
+@@ -74,7 +74,7 @@
+ 	  QString youtube_path = upath.filePath(folder);
+ 	  //qDebug() << youtube_path;
+ 	 UTube->setWorkingDirectory(youtube_path);
+-      UTube->start( utube_file.fileName(), QStringList() << "-b" << "-t" << text   );
++      UTube->start( utube_file.fileName(), QStringList() << "-t" << text   );
+ 
+      
+   }
+@@ -129,7 +129,7 @@
+ 	  QString youtube_path = upath.filePath(folder);
+ 	  //qDebug() << youtube_path;
+ 	 UTube->setWorkingDirectory(youtube_path);
+-         UTube->start( utube_file.fileName(), QStringList()  << "-u" << text2 << "-p" << text3 << "-b" << "-t" << text  );
++         UTube->start( utube_file.fileName(), QStringList()  << "-u" << text2 << "-p" << text3 << "-t" << text  );
+             
+            }
+        }
+@@ -149,7 +149,7 @@
+ QFile yutubbodl(Homeutube.path() + "/.acetoneiso/metacafe-dl");
+ yutubbodl.remove();
+ //system ("rm $HOME/.acetoneiso/metacafe-dl > /dev/null 2>&1");
+-if (system ("cd $HOME/.acetoneiso/;wget http://www.arrakis.es/~rggi3/metacafe-dl/metacafe-dl > /dev/null 2>&1")) {
++if (system ("cd $HOME/.acetoneiso/;wget https://raw.githubusercontent.com/glixx/metacafe-dl/master/metacafe-dl > /dev/null 2>&1")) {
+ }
+ //system ("chmod 755 $HOME/.acetoneiso/metacafe-dl > /dev/null 2>&1");
+ yutubbodl.setPermissions(QFile::ReadOwner | QFile::WriteOwner | QFile::ExeOwner | QFile::ExeGroup | QFile::ReadGroup | QFile::ReadOther | QFile::ExeOther);

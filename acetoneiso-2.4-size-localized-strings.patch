@@ -1,0 +1,21 @@
+diff -ur acetoneiso-2.4-svn20131025.orig/acetoneiso/ui/options.ui acetoneiso-2.4-svn20131025/acetoneiso/ui/options.ui
+--- acetoneiso-2.4-svn20131025.orig/acetoneiso/ui/options.ui	2016-03-20 18:12:01.000000000 +0300
++++ acetoneiso-2.4-svn20131025/acetoneiso/ui/options.ui	2016-03-20 19:12:47.000000000 +0300
+@@ -240,7 +240,7 @@
+             <rect>
+              <x>370</x>
+              <y>30</y>
+-             <width>121</width>
++             <width>171</width>
+              <height>33</height>
+             </rect>
+            </property>
+@@ -412,7 +412,7 @@
+         <rect>
+          <x>20</x>
+          <y>140</y>
+-         <width>541</width>
++         <width>550</width>
+          <height>23</height>
+         </rect>
+        </property>
