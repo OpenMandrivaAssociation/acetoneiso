@@ -7,7 +7,7 @@ Release:	1
 Summary:	CD/DVD Image Manipulator
 Group:		Archiving/Other
 License:	GPLv3
-URL:		http://www.acetoneteam.org/
+URL:		https://www.acetoneteam.org/
 Source0:	http://download.sourceforge.net/acetoneiso/%{name}_%{version}.tar.gz
 Patch1:		acetoneiso-2.4-mga-youtube-metacafe.patch
 Patch2:		acetoneiso-2.4-size-localized-strings.patch
